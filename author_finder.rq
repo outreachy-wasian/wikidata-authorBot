@@ -1,0 +1,32 @@
+SELECT DISTINCT ?item WHERE {
+  ?item wdt:P31 wd:Q13442814. #get a scholarly article with...
+  # { ?item p:P6979 ?id. } #a CJFD ID or TODO: GET CJFD WORKING. Leaving alone for now.
+  # UNION
+  { ?item p:P6179 ?id. } #a dimensions publication ID
+  UNION 
+  { ?item p:P698 ?id. } #a pubmed ID or
+  UNION
+  { ?item p:P819 ?id. } #an ADS bibcode and
+  {
+    MINUS { ?item p:P50 ?author. } #has no author
+    MINUS { ?item p:P2093 ?authornamestring. } #and no author name strings
+  }
+  UNION #or
+  {
+    ?item p:P50 ?author. #has an author
+    MINUS {
+      ?author (p:P1932+) ?statedas; #with no object stated as value or
+        (p:P9687+) ?authorfirst; #no author first name or
+        (p:P9688+) ?authorlast. #no author last name
+    }
+  }
+  UNION #or
+  {
+    ?item p:P2093 ?authorstring. #has an author name string
+    MINUS {
+      ?authorstring (p:P9687+) ?authorfirst; #with no author first name or
+        (p:P9688+) ?authorlast. #no author last name
+    }
+  }
+}
+LIMIT 100

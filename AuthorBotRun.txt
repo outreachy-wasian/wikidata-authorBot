@@ -1,0 +1,600 @@
+[roberto@pangolin authorBot]$ python ../../../../sources/core/pwb.py AuthorBot.py 
+
+----------------------------------------------------------------------------
+Updating author info in: The impact of maternal malaria on newborns (Q21032461)
+
+P698: 21118620
+[['T K', 'S J', 'P R'], ['Hartman', 'Rogerson', 'Fischer']]
+
+----------------------------------------------------------------------------
+Updating author info in: Three new species of woodlizards (Hoplocercinae, Enyalioides) from northwestern South America (Q21089632)
+
+P698: 25901116
+[['Omar', 'Pablo J', 'Kevin'], ['Torres-Carvajal', 'Venegas', 'de Queiroz']]
+
+----------------------------------------------------------------------------
+Updating author info in: Assessing the future threat from vivax malaria in the United Kingdom using two markedly different modelling approaches (Q21034122)
+
+P698: 20205713
+[['Steven W', 'David G', 'Robert A', 'Shane A', 'Stephen G'], ['Lindsay', 'Hole', 'Hutchinson', 'Richards', 'Willis']]
+
+----------------------------------------------------------------------------
+Updating author info in: Candidate glutamatergic neurons in the visual system of Drosophila (Q21004031)
+
+P698: 21573163
+[['Shamprasad Varija', 'Alexander'], ['Raghu', 'Borst']]
+
+----------------------------------------------------------------------------
+Updating author info in: Bad air, amulets and mosquitoes: 2,000 years of changing perspectives on malaria (Q21033855)
+
+P698: 23835014
+[['Ernst', 'Kristine'], ['Hempelmann', 'Krafts']]
+
+----------------------------------------------------------------------------
+Updating author info in: Analysis of variation at transcription factor binding sites in Drosophila and humans (Q21061190)
+
+P698: 22950968
+[['Mikhail', 'Junaid', 'Pouya', 'Kathryn', 'Charles', 'Gautier', 'Javier', 'Manolis', 'Eileen E M', 'Ewan'], ['Spivakov', 'Akhtar', 'Kheradpour', 'Beal', 'Girardot', 'Koscielny', 'Herrero', 'Kellis', 'Furlong', 'Birney']]
+
+----------------------------------------------------------------------------
+Updating author info in: Response to malaria epidemics in Africa (Q21032443)
+
+P698: 17553244
+[['Tarekegn A'], ['Abeku']]
+
+----------------------------------------------------------------------------
+Updating author info in: Strawberry flavor: diverse chemical compositions, a seasonal influence, and effects on sensory perception (Q21089680)
+
+P698: 24523895
+[['Michael L', 'Thomas A', 'Elizabeth A', 'Linda M', 'Jessica L', 'Denise M', 'Asli Z', 'Howard R', 'Kevin M', 'Harry J', 'Charles A', 'Vance M', 'David G'], ['Schwieterman', 'Colquhoun', 'Jaworski', 'Bartoshuk', 'Gilbert', 'Tieman', 'Odabasi', 'Moskowitz', 'Folta', 'Klee', 'Sims', 'Whitaker', 'Clark']]
+
+----------------------------------------------------------------------------
+Updating author info in: Vertebral bomb radiocarbon suggests extreme longevity in white sharks (Q21089719)
+
+P698: 24416189
+[['Li Ling', 'Lisa J', 'Gregory B', 'Simon R'], ['Hamady', 'Natanson', 'Skomal', 'Thorrold']]
+
+----------------------------------------------------------------------------
+Updating author info in: Recent common ancestry of Ebola Zaire virus found in a bat reservoir (Q21089627)
+
+P698: 17069458
+[['Roman', 'Peter D', 'Eric M', 'Leslie A'], ['Biek', 'Walsh', 'Leroy', 'Real']]
+
+----------------------------------------------------------------------------
+Updating author info in: Glucopyranosyl lipid A adjuvant significantly enhances HIV specific T and B cell responses elicited by a DNA-MVA-protein vaccine regimen (Q21089693)
+
+P698: 24465426
+[['Paul F', 'Alethea V', 'Jamie F S', 'Sarah', 'Mariano', 'Roger', 'Darrick', 'Steven G', 'Jonathan', 'Robin J'], ['McKay', 'Cope', 'Mann', 'Joseph', 'Esteban', 'Tatoud', 'Carter', 'Reed', 'Weber', 'Shattock']]
+
+----------------------------------------------------------------------------
+Updating author info in: A controversy re-visited: Is the coccinellid Adalia bipunctata adversely affected by Bt toxins? (Q21092911)
+
+P6179: 1011755259
+[['Angelika', 'Joanna M', 'Matthias', 'Anna', 'Juanita', 'Miluse'], ['Hilbeck', 'McMillan', 'Meier', 'Humbel', 'Schläpfer-Miller', 'Trtikova']]
+
+----------------------------------------------------------------------------
+Updating author info in: Identification of novel functional inhibitors of acid sphingomyelinase (Q21003953)
+
+P698: 21909365
+[['Johannes', 'Markus', 'Stefan', 'Stefanie', 'Astrid', 'Martin', 'Christiane', 'Lothar', 'Teja W', 'Gudrun M', 'Klaus R', 'Erich', 'Philipp'], ['Kornhuber', 'Muehlbacher', 'Trapp', 'Pechmann', 'Friedl', 'Reichel', 'Mühle', 'Terfloth', 'Groemer', 'Spitzer', 'Liedl', 'Gulbins', 'Tripal']]
+
+----------------------------------------------------------------------------
+Updating author info in: Electronic mosquito repellents for preventing mosquito bites and malaria infection (Q21032521)
+
+P698: 17443590
+[['A A', 'J', 'P'], ['Enayati', 'Hemingway', 'Garner']]
+
+----------------------------------------------------------------------------
+Updating author info in: The pattern of complaints about Australian wind farms does not match the establishment and distribution of turbines: support for the psychogenic, 'communicated disease' hypothesis (Q21089744)
+
+P698: 24146893
+[['Simon', 'Alexis', 'Karen', 'Vince'], ['Chapman', 'St George', 'Waller', 'Cakic']]
+
+----------------------------------------------------------------------------
+Updating author info in: Clinical efficacy of blue light full body irradiation as treatment option for severe atopic dermatitis (Q21004108)
+
+P698: 21687679
+[['Detlef', 'Elise', 'Martin', 'Gunda', 'Isabel', 'Joachim', 'Stephan', 'Esther'], ['Becker', 'Langer', 'Seemann', 'Seemann', 'Fell', 'Saloga', 'Grabbe', 'von Stebut']]
+
+----------------------------------------------------------------------------
+Updating author info in: Anatomy and taxonomic status of the chasmosaurine ceratopsid Nedoceratops hatcheri from the upper Cretaceous Lance Formation of Wyoming, U.S.A (Q20902204)
+
+P698: 21283763
+[['Andrew A'], ['Farke']]
+
+----------------------------------------------------------------------------
+Updating author info in: Emperor penguins breeding on iceshelves (Q21090664)
+
+P698: 24416381
+[['Peter T', 'Phil N', 'Barbara', 'Gerald L'], ['Fretwell', 'Trathan', 'Wienecke', 'Kooyman']]
+
+----------------------------------------------------------------------------
+Updating author info in: Vaccines against malaria (Q17485685)
+
+P698: 21893544
+[['Adrian V S'], ['Hill']]
+
+----------------------------------------------------------------------------
+Updating author info in: Genetic detection and characterization of Lujo virus, a new hemorrhagic fever-associated arenavirus from southern Africa (Q21089619)
+
+P698: 19478873
+[['Thomas', 'Janusz T', 'Laura K', 'Stephen K', 'Craig', 'Gustavo', 'Marina L', 'Jacqueline', 'Robert', 'Michael', 'Stuart T', 'W Ian'], ['Briese', 'Paweska', 'McMullan', 'Hutchison', 'Street', 'Palacios', 'Khristova', 'Weyer', 'Swanepoel', 'Egholm', 'Nichol', 'Lipkin']]
+
+----------------------------------------------------------------------------
+Updating author info in: Remembrance of past images of Trichinella (Q21076273)
+
+P698: 11484338
+[['W C'], ['Campbell']]
+
+----------------------------------------------------------------------------
+Updating author info in: Bench-to-bedside review: Rhabdomyolysis -- an overview for clinicians (Q21092898)
+
+P698: 15774072
+[['Ana L', 'Joseph', 'Paul E'], ['Huerta-Alardín', 'Varon', 'Marik']]
+
+----------------------------------------------------------------------------
+Updating author info in: Characterization of platelet-derived growth factor-A expression in mouse tissues using a lacZ knock-in approach (Q21089666)
+
+P698: 25166724
+[['Johanna', 'Leonor', 'Liqun', 'Christer'], ['Andrae', 'Gouveia', 'He', 'Betsholtz']]
+
+----------------------------------------------------------------------------
+Updating author info in: A gene (PEX) with homologies to endopeptidases is mutated in patients with X-linked hypophosphatemic rickets. The HYP Consortium (Q24308202)
+
+P698: 7550339
+[[], []]
+
+----------------------------------------------------------------------------
+Updating author info in: Tissue distribution of 5-hydroxymethylcytosine and search for active demethylation intermediates (Q21089989)
+
+P698: 21203455
+[['Daniel', 'Martin', 'Markus', 'Stylianos', 'Mirko', 'Susanne', 'Tobias', 'Martin', 'Thomas'], ['Globisch', 'Münzel', 'Müller', 'Michalakis', 'Wagner', 'Koch', 'Brückl', 'Biel', 'Carell']]
+
+----------------------------------------------------------------------------
+Updating author info in: The initial pharmaceutical development of an artesunate/amodiaquine oral formulation for the treatment of malaria: a public-private partnership (Q21034118)
+
+P698: 21605361
+[['Catherine', 'Tina', 'Jean-René', 'Antonella', 'Fawaz', 'Laurent', 'Sylvie', 'Luc', 'Visweswaran', 'Bellabes', 'Karen', 'Nick J', 'Piero L', 'Pascal'], ['Lacaze', 'Kauss', 'Kiechel', 'Caminiti', 'Fawaz', 'Terrassin', 'Cuart', 'Grislain', 'Navaratnam', 'Ghezzoul', 'Gaudin', 'White', 'Olliaro', 'Millet']]
+
+----------------------------------------------------------------------------
+Updating author info in: Backtracking on the folding landscape of the beta-trefoil protein interleukin-1beta? (Q21045404)
+
+P698: 18806223
+[['Dominique T', 'Melinda', 'José N', 'Patricia A'], ['Capraro', 'Roy', 'Onuchic', 'Jennings']]
+
+----------------------------------------------------------------------------
+Updating author info in: Dabrafenib; preclinical characterization, increased efficacy when combined with trametinib, while BRAF/MEK tool combination reduced skin lesions (Q21004109)
+
+P698: 23844038
+[['Alastair J', 'Marc R', 'Maureen R', 'Katherine G', 'Jingsong', 'Kelly E', 'Kimberly N', 'Joseph A', 'Angela', 'Laurie S', 'Robert H', 'Hongwei', 'Tara R', 'David E', 'Sylvie G'], ['King', 'Arnone', 'Bleam', 'Moss', 'Yang', 'Fedorowicz', 'Smitheman', 'Erhardt', 'Hughes-Earle', 'Kane-Carson', 'Sinnamon', 'Qi', 'Rheault', 'Uehling', 'Laquerre']]
+
+----------------------------------------------------------------------------
+Updating author info in: SAMHD1-deficient CD14+ cells from individuals with Aicardi-Goutières syndrome are highly susceptible to HIV-1 infection (Q21089603)
+
+P698: 22174685
+[['André', 'Andreas F R', 'Jenny', 'Matthias', 'Karin', 'Nicole', 'Sylvia', 'Andreas', 'Irene', 'Asavari', 'Lubbertus C F', 'Ana', 'Frank', 'Viviana', 'Renate', 'Egbert'], ['Berger', 'Sommer', 'Zwarg', 'Hamdorf', 'Welzel', 'Esly', 'Panitz', 'Reuter', 'Ramos', 'Jatiani', 'Mulder', 'Fernandez-Sesma', 'Rutsch', 'Simon', 'König', 'Flory']]
+
+----------------------------------------------------------------------------
+Updating author info in: Structure and dynamics of the pan-genome of Streptococcus pneumoniae and closely related species (Q21184102)
+
+P698: 21034474
+[['Claudio', 'N Luisa', 'Hervé', 'Alessandro', 'Nicholas J', 'Samuel V', 'Marco', 'Julie C', 'Fen Z', 'David R', 'Antonello', 'Tim J', 'Stephen D', 'Morgens', 'Garth D', 'Rino', 'E Richard', 'Vega'], ['Donati', 'Hiller', 'Tettelin', 'Muzzi', 'Croucher', 'Angiuoli', 'Oggioni', 'Dunning Hotopp', 'Hu', 'Riley', 'Covacci', 'Mitchell', 'Bentley', 'Kilian', 'Ehrlich', 'Rappuoli', 'Moxon', 'Masignani']]
+
+----------------------------------------------------------------------------
+Updating author info in: The Sorcerer II Global Ocean Sampling expedition: expanding the universe of protein families (Q21089567)
+
+P698: 17355171
+[['Shibu', 'Granger', 'Douglas B', 'Aaron L', 'Shannon J', 'Karin', 'Jonathan A', 'Karla B', 'Gerard', 'Weizhong', 'Lukasz', 'Piotr', 'Christopher S', 'Huiying', 'Susan T', 'Marcin P', 'Christopher', 'John-Marc', 'David A', 'Yufeng', 'Kannan', 'Shaun', 'Benjamin J', 'Vineet', 'Robert', 'Steven E', 'Adam', 'David', 'Jack E', 'Susan S', 'Robert L', 'Marvin', 'J Craig'], ['Yooseph', 'Sutton', 'Rusch', 'Halpern', 'Williamson', 'Remington', 'Eisen', 'Heidelberg', 'Manning', 'Li', 'Jaroszewski', 'Cieplak', 'Miller', 'Li', 'Mashiyama', 'Joachimiak', 'van Belle', 'Chandonia', 'Soergel', 'Zhai', 'Natarajan', 'Lee', 'Raphael', 'Bafna', 'Friedman', 'Brenner', 'Godzik', 'Eisenberg', 'Dixon', 'Taylor', 'Strausberg', 'Frazier', 'Venter']]
+
+----------------------------------------------------------------------------
+Updating author info in: Intra-lesional injection of the novel PKC activator EBC-46 rapidly ablates tumors in mouse models (Q21089659)
+
+P698: 25272271
+[['Glen M', 'Marjorie M A', 'Carly J', 'Ryan A', 'Aaron S', 'Jenny P', 'Lidia', 'Victoria A', 'Paul W', 'Peter G'], ['Boyle', "D'Souza", 'Pierce', 'Adams', 'Cantor', 'Johns', 'Maslovskaya', 'Gordon', 'Reddell', 'Parsons']]
+
+----------------------------------------------------------------------------
+Updating author info in: Twenty-four new species of Aleiodes Wesmael from the eastern Andes of Ecuador with associated biological information (Hymenoptera, Braconidae, Rogadinae). (Q21030504)
+
+P698: 24843275
+[['Eduardo Mitio', 'Scott Richard'], ['Shimbori', 'Shaw']]
+
+----------------------------------------------------------------------------
+Updating author info in: Dental calculus reveals unique insights into food items, cooking and plant processing in prehistoric central Sudan (Q21089671)
+
+P698: 25028938
+[['Stephen', 'Donatella', 'Tina', 'Anita', 'Karen'], ['Buckley', 'Usai', 'Jakob', 'Radini', 'Hardy']]
+
+----------------------------------------------------------------------------
+Updating author info in: A new sebecid from the paleogene of Brazil and the crocodyliform radiation after the K-Pg boundary (Q21089731)
+
+P698: 24454686
+[['Alexander W A', 'André E P', 'Diogenes A'], ['Kellner', 'Pinheiro', 'Campos']]
+
+----------------------------------------------------------------------------
+Updating author info in: The Plasmodium falciparum-infected red blood cell (Q21032511)
+
+P698: 21458590
+[['Leann', 'Matthew W A', 'Kiaran'], ['Tilley', 'Dixon', 'Kirk']]
+
+----------------------------------------------------------------------------
+Updating author info in: Malaria Eradication in the United States (Q21032448)
+
+P698: 14000898
+[['L L Jr'], ['WILLIAMS']]
+
+----------------------------------------------------------------------------
+Updating author info in: Molecular phylogeny and taxonomic revision of the sportive lemurs (Lepilemur, Primates). (Q21093603)
+16504080
+[['Nicole', 'Jean-Luc', 'Christian', 'Dietmar', 'Urs', 'Clément', 'Iary', 'Jörg U', 'Bernhard', 'Roland', 'Lutz', 'Alphonse', 'Christoph', 'Thomas', 'Elke', 'Ute', 'Mathias', 'Jürgen', 'Ian', 'Yves'], ['Andriaholinirina', 'Fausser', 'Roos', 'Zinner', 'Thalmann', 'Rabarivola', 'Ravoarimanana', 'Ganzhorn', 'Meier', 'Hilgartner', 'Walter', 'Zaramody', 'Langer', 'Hahn', 'Zimmermann', 'Radespiel', 'Craul', 'Tomiuk', 'Tattersall', 'Rumpler']]
+
+----------------------------------------------------------------------------
+Updating author info in: The promise and perils of pre-publication review: a multi-agent simulation of biomedical discovery under varying levels of review stringency (Q20930213)
+
+P698: 20520812
+[['Jeff'], ['Shrager']]
+
+----------------------------------------------------------------------------
+Updating author info in: Malagasyprinus, a new genus of the Saprininae from Madagascar with description of two new species (Coleoptera, Histeridae, Saprininae) (First contribution to the knowledge of the Histeridae of Madagascar) (Q21003997)
+
+P698: 24146560
+[['Tomáš', 'Yves'], ['Lackner', 'Gomy']]
+
+----------------------------------------------------------------------------
+Updating author info in: Forever in the dark: the cave-dwelling azooxanthellate reef coral Leptoseris troglodyta sp. n. (Scleractinia, Agariciidae) (Q21090383)
+
+P698: 23166468
+[['Bert W'], ['Hoeksema']]
+
+----------------------------------------------------------------------------
+Updating author info in: Arrestins: ubiquitous regulators of cellular signaling pathways (Q21184142)
+
+P698: 17020596
+[['Eugenia V', 'Vsevolod V'], ['Gurevich', 'Gurevich']]
+
+----------------------------------------------------------------------------
+Updating author info in: New genus and species of broad-nosed weevils from Baltic amber and notes on fossils of the subfamily Entiminae (Coleoptera, Curculionidae) (Q21030470)
+
+P698: 22303121
+[['Nikolai N', 'Alexander G'], ['Yunakov', 'Kirejtshuk']]
+
+----------------------------------------------------------------------------
+Updating author info in: Open Data, Open Source and Open Standards in chemistry: The Blue Obelisk five years on (Q21092921)
+
+P698: 21999342
+[['Noel M', 'Rajarshi', 'Egon L', 'Samuel E', 'Jonathan', 'Jean-Claude', 'Igor V', 'Robert M', 'Marcus D', 'Geoffrey R', 'Craig A', 'Nina', 'Andrew Sid', 'Karol M', 'David C', 'Daniel M', 'Jérôme', 'Dmitry', 'Ola', 'Christoph', 'Adam L', 'Kevin J', 'Peter'], ["O'Boyle", 'Guha', 'Willighagen', 'Adams', 'Alvarsson', 'Bradley', 'Filippov', 'Hanson', 'Hanwell', 'Hutchison', 'James', 'Jeliazkova', 'Lang', 'Langner', 'Lonie', 'Lowe', 'Pansanel', 'Pavlov', 'Spjuth', 'Steinbeck', 'Tenderholt', 'Theisen', 'Murray-Rust']]
+
+----------------------------------------------------------------------------
+Updating author info in: Large-scale identification of human genes implicated in epidermal barrier function (Q21092869)
+
+P698: 17562024
+[['Eve', 'Nicolas R', 'Marie-Florence', 'Nathalie', 'Carole', 'Daniel', 'Antoine', 'Patrick', 'Guy', 'Marina'], ['Toulza', 'Mattiuzzo', 'Galliano', 'Jonca', 'Dossat', 'Jacob', 'de Daruvar', 'Wincker', 'Serre', 'Guerrin']]
+
+----------------------------------------------------------------------------
+Updating author info in: Zincolivenite CuZn(AsO₄)(OH): a new adamite-group mineral with ordered distribution of Cu and Zn (Q16326795)
+
+P6179: 1021254827
+[['N. V.', 'D. Yu.', 'N. V.', 'I. V.', 'M.', 'S.', 'S.', 'M. Kh.', 'D. I.'], ['Chukanov', 'Pushcharovsky', 'Zubkova', 'Pekov', 'Pasero', 'Merlino', 'Möckel', 'Rabadanov', 'Belakovskiy']]
+
+----------------------------------------------------------------------------
+Updating author info in: Fetal alcohol exposure and IQ at age 8: evidence from a population-based birth-cohort study (Q21089832)
+
+P698: 23166662
+[['Sarah J', 'Luisa', 'George', 'John', 'Santiago', 'Elizabeth S', 'Margaret', 'Rosa', 'Kapil', 'Susan', 'Jean', 'Ron'], ['Lewis', 'Zuccolo', 'Davey Smith', 'Macleod', 'Rodriguez', 'Draper', 'Barrow', 'Alati', 'Sayal', 'Ring', 'Golding', 'Gray']]
+
+----------------------------------------------------------------------------
+Updating author info in: High frequency of phenotypic deviations in Physcomitrella patens plants transformed with a gene-disruption library (Q21030533)
+
+P698: 12123528
+[['Tanja', 'José', 'Marie-Christine', 'Annette', 'Hauke', 'Jan M', 'Stefan A', 'Katja', 'Julia', 'Gabriele', 'Susanne', 'Elke', 'Bodo', 'Ralf'], ['Egener', 'Granado', 'Guitton', 'Hohe', 'Holtorf', 'Lucht', 'Rensing', 'Schlink', 'Schulte', 'Schween', 'Zimmermann', 'Duwenig', 'Rak', 'Reski']]
+
+----------------------------------------------------------------------------
+Updating author info in: Trends in malaria cases, hospital admissions and deaths following scale-up of anti-malarial interventions, 2000-2010, Rwanda (Q21034110)
+
+P698: 22823945
+[['Corine', 'Maru W', 'Alphonse', 'Alain', 'Monique', 'Ibrahima S', 'Khoti', 'Ryan O', 'Michael', 'Richard', 'Ngabo', 'Jean-Pierre', 'Daniel', 'Irenee', 'Robert', 'Agnes'], ['Karema', 'Aregawi', 'Rukundo', 'Kabayiza', 'Mulindahabi', 'Fall', 'Gausi', 'Williams', 'Lynch', 'Cibulskis', 'Fidele', 'Nyemazi', 'Ngamije', 'Umulisa', 'Newman', 'Binagwaho']]
+
+----------------------------------------------------------------------------
+Updating author info in: Characterizing the Late Pleistocene MSA Lithic Technology of Sibudu, KwaZulu-Natal, South Africa (Q21089698)
+
+P698: 24878544
+[['Manuel', 'Gregor D', 'Nicholas J'], ['Will', 'Bader', 'Conard']]
+
+----------------------------------------------------------------------------
+Updating author info in: The oldest caseid synapsid from the Late Pennsylvanian of Kansas, and the evolution of herbivory in terrestrial vertebrates (Q21089707)
+
+P698: 24739998
+[['Robert R', 'Jörg'], ['Reisz', 'Fröbisch']]
+
+----------------------------------------------------------------------------
+Updating author info in: Transmission dynamics and control of Ebola virus disease (EVD): a review (Q21146685)
+
+P698: 25300956
+[['Gerardo', 'Hiroshi'], ['Chowell', 'Nishiura']]
+
+----------------------------------------------------------------------------
+Updating author info in: Edwardsiella andrillae, a new species of sea anemone from Antarctic ice (Q21089724)
+
+P698: 24349517
+[['Marymegan', 'Frank', 'Robert'], ['Daly', 'Rack', 'Zook']]
+
+----------------------------------------------------------------------------
+Updating author info in: Quinine, an old anti-malarial drug in a modern world: role in the treatment of malaria (Q17485067)
+
+P698: 21609473
+[['Jane', 'Ambrose O', 'Annette', 'Adoke', 'James K', 'Frederick N', 'Philip J', 'Umberto'], ['Achan', 'Talisuna', 'Erhart', 'Yeka', 'Tibenderana', 'Baliraine', 'Rosenthal', "D'Alessandro"]]
+
+----------------------------------------------------------------------------
+Updating author info in: HACEK infective endocarditis: characteristics and outcomes from a large, multi-national cohort (Q21090758)
+
+P698: 23690995
+[['Stephen T', 'David', 'Arthur', 'David', 'Paul', 'Manel', 'Nuria', 'Benito', 'Emilio', 'Davide', 'Ana', 'Margaret M', 'John', 'Zeina A', 'Tahaniyat', 'Selwyn', 'Nigel', 'Kerry', 'Tatiana', 'Christopher W', 'Dannah', 'G Ralph', 'Vivian H'], ['Chambers', 'Murdoch', 'Morris', 'Holland', 'Pappas', 'Almela', 'Fernández-Hidalgo', 'Almirante', 'Bouza', 'Forno', 'del Rio', 'Hannan', 'Harkness', 'Kanafani', 'Lalani', 'Lang', 'Raymond', 'Read', 'Vinogradova', 'Woods', 'Wray', 'Corey', 'Chu']]
+
+----------------------------------------------------------------------------
+Updating author info in: A higher-level MRP supertree of placental mammals (Q21093600)
+
+P698: 17101039
+[['Robin M D', 'Olaf R P', 'Marcel', 'Fu-Guo Robert', 'Andy'], ['Beck', 'Bininda-Emonds', 'Cardillo', 'Liu', 'Purvis']]
+
+----------------------------------------------------------------------------
+Updating author info in: Reduced complexity of activity patterns in patients with chronic fatigue syndrome: a case control study (Q21093163)
+
+P698: 19490619
+[['Christopher', 'Hans', 'Nikola', 'Michael', 'Gijs'], ['Burton', 'Knoop', 'Popovic', 'Sharpe', 'Bleijenberg']]
+
+----------------------------------------------------------------------------
+Updating author info in: Periodontal ligament, cementum, and alveolar bone in the oldest herbivorous tetrapods, and their evolutionary significance (Q21090714)
+
+P698: 24023957
+[['Aaron R H', 'Robert R'], ['LeBlanc', 'Reisz']]
+
+----------------------------------------------------------------------------
+Updating author info in: Gene functionalities and genome structure in Bathycoccus prasinos reflect cellular specializations at the base of the green lineage (Q21183998)
+
+P698: 22925495
+[['Hervé', 'Bram', 'Arnaud', 'Evelyne', 'Stephane', 'Nigel', 'Michiel', 'Julie', 'Michaël', 'Martin F', 'Gwenael', 'Pierre', 'Corinne', 'Patrick', 'Yves', 'Klaas'], ['Moreau', 'Verhelst', 'Couloux', 'Derelle', 'Rombauts', 'Grimsley', 'Van Bel', 'Poulain', 'Katinka', 'Hohmann-Marriott', 'Piganeau', 'Rouzé', 'Da Silva', 'Wincker', 'Van de Peer', 'Vandepoele']]
+
+----------------------------------------------------------------------------
+Updating author info in: Caspases in synaptic plasticity (Q21198877)
+
+P698: 22583788
+[['Zheng', 'Morgan'], ['Li', 'Sheng']]
+
+----------------------------------------------------------------------------
+Updating author info in: Identification of minimal human MHC-restricted CD8+ T-cell epitopes within the Plasmodium falciparum circumsporozoite protein (CSP) (Q21034050)
+
+P698: 23738590
+[['Martha', 'Yohan', 'Harini', 'Jun', 'Maria', 'Esteban', 'Jo Glenna', 'Fouzia', 'Shannon', 'Bjoern', 'Alessandro', 'Lorraine', 'Carter', 'Denise L', 'Cindy', 'Eileen', 'Michael R', 'Thomas L'], ['Sedegah', 'Kim', 'Ganeshan', 'Huang', 'Belmonte', 'Abot', 'Banania', 'Farooq', 'McGrath', 'Peters', 'Sette', 'Soisson', 'Diggs', 'Doolan', 'Tamminga', 'Villasante', 'Hollingdale', 'Richie']]
+
+----------------------------------------------------------------------------
+Updating author info in: Genome skimming identifies polymorphism in tern populations and species (Q21199581)
+
+P698: 22333071
+[['David George', 'Steven D', 'Marcel'], ['Jackson', 'Emslie', 'van Tuinen']]
+
+----------------------------------------------------------------------------
+Updating author info in: Candidate malaria susceptibility/protective SNPs in hospital and population-based studies: the effect of sub-structuring (Q21034139)
+
+P698: 20459687
+[['Nahid A', 'Aymen A', 'Abier M', 'Hiba S', 'Kirk A', 'Dominic P', 'Muntaser E'], ['Eid', 'Hussein', 'Elzein', 'Mohamed', 'Rockett', 'Kwiatkowski', 'Ibrahim']]
+
+----------------------------------------------------------------------------
+Updating author info in: Treatment of Fabry disease: outcome of a comparative trial with agalsidase alfa or beta at a dose of 0.2 mg/kg (Q21004071)
+
+P698: 17622343
+[['Anouk C', 'Gabor E', 'Gunnar', 'Johannna E M', 'Els E', 'Berto J', 'Johannes M F G', 'Asle', 'Carla E M'], ['Vedder', 'Linthorst', 'Houge', 'Groener', 'Ormel', 'Bouma', 'Aerts', 'Hirth', 'Hollak']]
+
+----------------------------------------------------------------------------
+Updating author info in: Prevalence and clinical features of HIV and malaria co-infection in hospitalized adults in Beira, Mozambique (Q21034056)
+
+P698: 22835018
+[['Annalisa', 'Edy A', 'Ezio A', 'Domenico', 'Marco', 'Carlos', 'Anita', 'Donata', 'Josefo J', 'César A'], ['Saracino', 'Nacarapa', 'da Costa Massinga', 'Martinelli', 'Scacchetti', 'de Oliveira', 'Antonich', 'Galloni', 'Ferro', 'Macome']]
+
+----------------------------------------------------------------------------
+Updating author info in: Estimating the global clinical burden of Plasmodium falciparum malaria in 2007 (Q17485684)
+
+P698: 20563310
+[['Simon I', 'Emelda A', 'Peter W', 'Anand P', 'Andrew J', 'Carlos A', 'Robert W'], ['Hay', 'Okiro', 'Gething', 'Patil', 'Tatem', 'Guerra', 'Snow']]
+
+----------------------------------------------------------------------------
+Updating author info in: Miocene Fossils Reveal Ancient Roots for New Zealand's Endemic Mystacina (Chiroptera) and Its Rainforest Habitat (Q21089642)
+
+P698: 26083758
+[['Suzanne J', 'Daphne E', 'Trevor H', 'Michael', 'Jennifer P', 'Alan J D', 'Steven W', 'R Paul', 'Dallas C', 'Elizabeth M', 'Jon K'], ['Hand', 'Lee', 'Worthy', 'Archer', 'Worthy', 'Tennyson', 'Salisbury', 'Scofield', 'Mildenhall', 'Kennedy', 'Lindqvist']]
+
+----------------------------------------------------------------------------
+Updating author info in: Individual differences in sound-in-noise perception are related to the strength of short-latency neural responses to noise (Q21030593)
+
+P698: 21387016
+[['Ekaterina', 'Pavel M', 'Evan'], ['Vinnik', 'Itskov', 'Balaban']]
+
+----------------------------------------------------------------------------
+Updating author info in: Malarone treatment failure not associated with previously described mutations in the cytochrome b gene (Q21033786)
+
+P698: 15186499
+[['Ole', 'Marion', 'Holger', 'Frank P', 'Norbert', 'Tomas'], ['Wichmann', 'Muehlen', 'Gruss', 'Mockenhaupt', 'Suttorp', 'Jelinek']]
+
+----------------------------------------------------------------------------
+Updating author info in: Mate choice and the origin of menopause (Q21003830)
+
+P698: 23785268
+[['Richard A', 'Jonathan R', 'Rama S'], ['Morton', 'Stone', 'Singh']]
+
+----------------------------------------------------------------------------
+Updating author info in: Carrageenan is a potent inhibitor of papillomavirus infection (Q21089628)
+
+P698: 16839203
+[['Christopher B', 'Cynthia D', 'Jeffrey N', 'Martin', 'Douglas R', 'John T'], ['Buck', 'Thompson', 'Roberts', 'Müller', 'Lowy', 'Schiller']]
+
+----------------------------------------------------------------------------
+Updating author info in: The Anopheles dirus complex: spatial distribution and environmental drivers (Q21034154)
+
+P698: 17341297
+[['Valérie', 'Pierre', 'Marc'], ['Obsomer', 'Defourny', 'Coosemans']]
+
+----------------------------------------------------------------------------
+Updating author info in: Phylogeography of a land snail suggests trans-Mediterranean neolithic transport (Q21089959)
+
+P698: 21731622
+[['Ruth', 'Errol', 'Markus'], ['Jesse', 'Véla', 'Pfenninger']]
+
+----------------------------------------------------------------------------
+Updating author info in: Taxonomic information exchange and copyright: the Plazi approach (Q20650433)
+
+P698: 19331688
+[['Donat', 'Willi'], ['Agosti', 'Egloff']]
+
+----------------------------------------------------------------------------
+Updating author info in: Vivax malaria in Mauritania includes infection of a Duffy-negative individual (Q21034116)
+
+P698: 22050867
+[['Nathalie', 'Khadijetou', 'Hervé', 'Bruno', 'Christophe', 'Ali', 'Jamal Eddine', 'Mohamed Salem', 'Jean-François', 'Leonardo K', 'Sébastien'], ['Wurtz', 'Mint Lekweiry', 'Bogreau', 'Pradines', 'Rogier', 'Ould Mohamed Salem Boukhary', 'Hafid', 'Ould Ahmedou Salem', 'Trape', 'Basco', 'Briolant']]
+
+----------------------------------------------------------------------------
+Updating author info in: Biogeography and taxonomy of extinct and endangered monk seals illuminated by ancient DNA and skull morphology (Q21089634)
+24899841
+[['Dirk-Martin', 'Graham J', 'Sergios-Orestis', 'Charles W', 'David S', 'Kyriakos', 'Alex D', 'Kristofer M'], ['Scheel', 'Slater', 'Kolokotronis', 'Potter', 'Rotstein', 'Tsangaras', 'Greenwood', 'Helgen']]
+
+----------------------------------------------------------------------------
+Updating author info in: The rationale for consuming cognitive enhancement drugs in university students and teachers (Q21089765)
+
+P698: 23874778
+[['Sebastian', 'Carsten', 'Guido', 'Peter'], ['Sattler', 'Sauer', 'Mehlkop', 'Graeff']]
+
+----------------------------------------------------------------------------
+Updating author info in: Discovering novel cis-regulatory motifs using functional networks (Q21061187)
+
+P698: 12727907
+[['Laurence M', 'Johan', 'Ewan'], ['Ettwiller', 'Rung', 'Birney']]
+
+----------------------------------------------------------------------------
+Updating author info in: Amino and carboxy-terminal regions in globular proteins (Q21045397)
+
+P698: 6864804
+[['J M', 'B L'], ['Thornton', 'Sibanda']]
+
+----------------------------------------------------------------------------
+Updating author info in: Liber Divinorum Operum (Book of Divine Works): Hildegard von Bingen (Q3049558)
+
+P698: 26647248
+[['Thomas B'], ['Cole']]
+
+----------------------------------------------------------------------------
+Updating author info in: Epigenetic silencing of DSC3 is a common event in human breast cancer (Q21195245)
+
+P698: 16168112
+[['Marc M', 'Christina J', 'Ryan J', 'Damian J', 'José L', 'Jeanne A', 'Matthew', 'Sangita C', 'Anne E', 'Frederick E', 'Bernard W'], ['Oshiro', 'Kim', 'Wozniak', 'Junk', 'Muñoz-Rodríguez', 'Burr', 'Fitzgerald', 'Pawar', 'Cress', 'Domann', 'Futscher']]
+
+----------------------------------------------------------------------------
+Updating author info in: Mouse DNA contamination in human tissue tested for XMRV (Q21093226)
+
+P698: 21171966
+[['Mark J', 'Otto W', 'Steve', 'Jonathan', 'Oya', 'Anup', 'Marjorie M', 'Wun-Jae', 'Mongkol', 'John M', 'Myra O'], ['Robinson', 'Erlwein', 'Kaye', 'Weber', 'Cingoz', 'Patel', 'Walker', 'Kim', 'Uiprasertkul', 'Coffin', 'McClure']]
+
+----------------------------------------------------------------------------
+Updating author info in: Bioinformatic analysis suggests that the Orbivirus VP6 cistron encodes an overlapping gene (Q21093211)
+
+P698: 18489030
+[['Andrew E'], ['Firth']]
+
+----------------------------------------------------------------------------
+Updating author info in: A critical meta-analysis of lens model studies in human judgment and decision-making (Q21089722)
+
+P698: 24391781
+[['Esther', 'Ulf-Dietrich', 'Werner W'], ['Kaufmann', 'Reips', 'Wittmann']]
+
+----------------------------------------------------------------------------
+Updating author info in: A new world malaria map: Plasmodium falciparum endemicity in 2010 (Q17485680)
+
+P698: 22185615
+[['Peter W', 'Anand P', 'David L', 'Carlos A', 'Iqbal R F', 'Geoffrey L', 'Andrew J', 'Simon I'], ['Gething', 'Patil', 'Smith', 'Guerra', 'Elyazar', 'Johnston', 'Tatem', 'Hay']]
+
+----------------------------------------------------------------------------
+Updating author info in: Ferrocene-based antimalarials (Q21032535)
+
+P698: 22530641
+[['Clément', 'Christophe'], ['Roux', 'Biot']]
+
+----------------------------------------------------------------------------
+Updating author info in: Lesion of the subiculum reduces the spread of amyloid beta pathology to interconnected brain regions in a mouse model of Alzheimer's disease (Q21092910)
+
+P698: 24517102
+[['Sonia', 'Annica', 'Gunnar K', 'Géraldine H', 'Fiona', 'Bengt', 'Caroline', 'Patrik'], ['George', 'Rönnbäck', 'Gouras', 'Petit', 'Grueninger', 'Winblad', 'Graff', 'Brundin']]
+
+----------------------------------------------------------------------------
+Updating author info in: Artemisinin resistance: current status and scenarios for containment (Q21032505)
+
+P698: 20208550
+[['Arjen M', 'Shunmay', 'Lisa', 'Chea', 'Nicholas P J', 'Duong', 'Lorenz'], ['Dondorp', 'Yeung', 'White', 'Nguon', 'Day', 'Socheat', 'von Seidlein']]
+
+----------------------------------------------------------------------------
+Updating author info in: Brain volume of the newly-discovered species Rhynchocyon udzungwensis (Mammalia: Afrotheria: Macroscelidea): implications for encephalization in sengis (Q21004107)
+
+P698: 23516530
+[['Jason A', 'Gregory H', 'Patricia A', 'Francesco', 'Ari'], ['Kaufman', 'Turner', 'Holroyd', 'Rovero', 'Grossman']]
+
+----------------------------------------------------------------------------
+Updating author info in: Prevalence of congenital malaria in high-risk Ghanaian newborns: a cross-sectional study. (Q21034051)
+
+P698: 23311646
+[['Christabel C', 'George O', 'Benjamin', 'Nancy', 'Neils B'], ['Enweronu-Laryea', 'Adjei', 'Mensah', 'Duah', 'Quashie']]
+
+----------------------------------------------------------------------------
+Updating author info in: Drug transport in brain via the cerebrospinal fluid (Q21092913)
+
+P698: 21349155
+[['William M'], ['Pardridge']]
+
+----------------------------------------------------------------------------
+Updating author info in: The diploid genome sequence of an individual human (Q21090194)
+
+P698: 17803354
+[['Samuel', 'Granger', 'Pauline C', 'Lars', 'Aaron L', 'Brian P', 'Nelson', 'Jiaqi', 'Ewen F', 'Gennady', 'Yuan', 'Jeffrey R', 'Andy Wing Chun', 'Mary', 'Timothy B', 'Alexia', 'Vineet', 'Vikas', 'Saul A', 'Dana A', 'Karen Y', 'Tina C', 'Karin A', 'Josep F', 'John', 'Jon', 'Yu-Hui', 'Marvin E', 'Stephen W', 'Robert L', 'J Craig'], ['Levy', 'Sutton', 'Ng', 'Feuk', 'Halpern', 'Walenz', 'Axelrod', 'Huang', 'Kirkness', 'Denisov', 'Lin', 'MacDonald', 'Pang', 'Shago', 'Stockwell', 'Tsiamouri', 'Bafna', 'Bansal', 'Kravitz', 'Busam', 'Beeson', 'McIntosh', 'Remington', 'Abril', 'Gill', 'Borman', 'Rogers', 'Frazier', 'Scherer', 'Strausberg', 'Venter']]
+
+----------------------------------------------------------------------------
+Updating author info in: The slugs of Britain and Ireland: undetected and undescribed species increase a well-studied, economically important fauna by more than 20% (Q21089712)
+
+P698: 24740519
+[['Ben', 'Roy', 'James A', 'William O C'], ['Rowson', 'Anderson', 'Turner', 'Symondson']]
+
+----------------------------------------------------------------------------
+Updating author info in: Uberon, an integrative multi-species anatomy ontology (Q21184014)
+
+P698: 22293552
+[['Christopher J', 'Carlo', 'Georgios V', 'Suzanna E', 'Melissa A'], ['Mungall', 'Torniai', 'Gkoutos', 'Lewis', 'Haendel']]
+
+----------------------------------------------------------------------------
+Updating author info in: Relations in biomedical ontologies (Q19671539)
+
+P698: 15892874
+[['Barry', 'Werner', 'Bert', 'Jacob', 'Anand', 'Jane', 'Chris', 'Fabian', 'Alan L', 'Cornelius'], ['Smith', 'Ceusters', 'Klagges', 'Köhler', 'Kumar', 'Lomax', 'Mungall', 'Neuhaus', 'Rector', 'Rosse']]
+
+----------------------------------------------------------------------------
+Updating author info in: On the validity and phylogenetic position of Eubrachiosaurus browni, a kannemeyeriiform dicynodont (Anomodontia) from Triassic North America (Q21090751)
+
+P698: 23741307
+[['Christian F', 'Jörg', 'Kenneth D'], ['Kammerer', 'Fröbisch', 'Angielczyk']]
+
+----------------------------------------------------------------------------
+Updating author info in: No evidence of locus heterogeneity in familial microcephaly with or without chorioretinopathy, lymphedema, or mental retardation syndrome (Q21146647)
+
+P698: 25934493
+[['Matthieu J', 'Antonella', 'Elodie', 'Pradeep', 'Koen', 'Thomy J L', 'Hilde', 'Ingele', 'Ignacio', 'Francesca', 'Karen', 'Katheryn', 'Mark', 'Irina', 'Ami', 'Maria', 'María', 'Nicole', 'Laurence M', 'Pascal', 'Miikka'], ['Schlögel', 'Mendola', 'Fastré', 'Vasudevan', 'Devriendt', 'de Ravel', 'Van Esch', 'Casteels', 'Arroyo Carrera', 'Cristofoli', 'Fieggen', 'Jones', 'Lipson', 'Balikova', 'Singer', 'Soller', 'Mercedes Villanueva', 'Revencu', 'Boon', 'Brouillard', 'Vikkula']]
+
+----------------------------------------------------------------------------
+Updating author info in: Key stages of mammary gland development: molecular mechanisms involved in the formation of the embryonic mammary gland (Q21092907)
+
+P698: 16168142
+[['Julie R', 'John J'], ['Hens', 'Wysolmerski']]
+
+----------------------------------------------------------------------------
+Updating author info in: Lutzomyia adiketis sp. n. (Diptera: Phlebotomidae), a vector of Paleoleishmania neotropicum sp. n. (Kinetoplastida: Trypanosomatidae) in Dominican amber (Q21092938)
+
+P698: 18627624
+[['George Jr'], ['Poinar']]
+
+----------------------------------------------------------------------------
+Updating author info in: Non-instrumented incubation of a recombinase polymerase amplification assay for the rapid and sensitive detection of proviral HIV-1 DNA (Q21089662)
+
+P698: 25264766
+[['Lorraine', 'Dara', 'Mitra C', 'Jason', 'Jered', 'Paul', 'Anthony', 'Olaf', 'Mathew', 'Robert', 'Julie', 'David S'], ['Lillis', 'Lehman', 'Singhal', 'Cantera', 'Singleton', 'Labarre', 'Toyama', 'Piepenburg', 'Parker', 'Wood', 'Overbaugh', 'Boyle']]
+
