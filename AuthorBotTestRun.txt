@@ -1,0 +1,2280 @@
+
+[roberto@pangolin AuthorBot]$ python ../../../../../sources/core/pwb.py AuthorBot.py
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: A cost-effectiveness study of caesarean-section deliveries by clinical officers, general practitioners and obstetricians in Burkina Faso (Q21245527)
+                                                              Using database P698 with article ID 19371433                                                              
+                                                    Author given names: ['Sennen H', 'David', 'Nicolas', 'Vincent']                                                     
+                                                  Author family names: ['Hounton', 'Newlands', 'Meda', 'De Brouwere']                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Sennen H Hounton
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Nicolas Meda
+== Trying to find author in existing author name string items...
+==	Perfect match!: Sennen H Hounton
+== Adding qualifiers to author item...
+==	Added P9687: Sennen H
+==	Added P9688: Hounton
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: David Newlands
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Nicolas Meda
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Sennen H Hounton
+==	Perfect match!: David Newlands
+== Adding qualifiers to author item...
+==	Added P9687: David
+==	Added P9688: Newlands
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Nicolas Meda
+== Trying to find author in existing author items...
+==	Perfect match!: Nicolas Meda
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Nicolas
+==	Added P9688: Meda
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Vincent De Brouwere
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Nicolas Meda
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Sennen H Hounton
+==	No match! Incorrect given names: David Newlands
+==	Perfect match!: Vincent De Brouwere
+== Adding qualifiers to author item...
+==	Added P9687: Vincent
+==	Added P9688: De Brouwere
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    Updating author info in: An anti-inflammatory diet as treatment for inflammatory bowel disease: a case series report (Q21245915)                    
+                                                              Using database P698 with article ID 24428901                                                              
+                                      Author given names: ['Barbara C', 'Taryn D', 'Gioia M', 'Yunsheng', 'Katherine R', 'David']                                       
+                                         Author family names: ['Olendzki', 'Silverstein', 'Persuitte', 'Ma', 'Baldwin', 'Cave']                                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Barbara C Olendzki
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Yunsheng Ma
+== Trying to find author in existing author name string items...
+==	Perfect match!: Barbara C Olendzki
+== Adding qualifiers to author item...
+==	Added P9687: Barbara C
+==	Added P9688: Olendzki
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Taryn D Silverstein
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Yunsheng Ma
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Barbara C Olendzki
+==	Perfect match!: Taryn D Silverstein
+== Adding qualifiers to author item...
+==	Added P9687: Taryn D
+==	Added P9688: Silverstein
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Gioia M Persuitte
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Yunsheng Ma
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Barbara C Olendzki
+==	No match! Incorrect given names: Taryn D Silverstein
+==	Perfect match!: Gioia M Persuitte
+== Adding qualifiers to author item...
+==	Added P9687: Gioia M
+==	Added P9688: Persuitte
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Yunsheng Ma
+== Trying to find author in existing author items...
+==	Perfect match!: Yunsheng Ma
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Yunsheng
+==	Added P9688: Ma
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Katherine R Baldwin
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Yunsheng Ma
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Barbara C Olendzki
+==	No match! Incorrect given names: Taryn D Silverstein
+==	No match! Incorrect given names: Gioia M Persuitte
+==	Perfect match!: Katherine R Baldwin
+== Adding qualifiers to author item...
+==	Added P9687: Katherine R
+==	Added P9688: Baldwin
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: David Cave
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Yunsheng Ma
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Barbara C Olendzki
+==	No match! Incorrect given names: Taryn D Silverstein
+==	No match! Incorrect given names: Gioia M Persuitte
+==	No match! Incorrect given names: Katherine R Baldwin
+==	Perfect match!: David Cave
+== Adding qualifiers to author item...
+==	Added P9687: David
+==	Added P9688: Cave
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Updating author info in: The metabolic advantage of tumor cells (Q21245765)                                               
+                                                              Using database P698 with article ID 21649891                                                              
+                                                               Author given names: ['Maurice', 'Laurent']                                                               
+                                                              Author family names: ['Israël', 'Schwartz']                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Maurice Israël
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Laurent Schwartz
+== Trying to find author in existing author name string items...
+==	Perfect match!: Maurice Israël
+== Adding qualifiers to author item...
+==	Added P9687: Maurice
+==	Added P9688: Israël
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Laurent Schwartz
+== Trying to find author in existing author items...
+==	Perfect match!: Laurent Schwartz
+== Adding qualifiers to author item...
+==	Added P1932: Laurent Schwartz
+==	Added P9687: Laurent
+==	Added P9688: Schwartz
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       Updating author info in: African herbal medicines in the treatment of HIV: Hypoxis and Sutherlandia. An overview of evidence and pharmacology (Q21245910)        
+                                                              Using database P698 with article ID 15927053                                                              
+                                                       Author given names: ['Edward', 'Curtis', 'Dugald', 'Izzy']                                                       
+                                                      Author family names: ['Mills', 'Cooper', 'Seely', 'Kanfer']                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Edward Mills
+== Trying to find author in existing author items...
+==	Alias match!: Edward Mills
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Edward
+==	Added P9688: Mills
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Curtis Cooper
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Edward J. Mills
+== Trying to find author in existing author name string items...
+==	Perfect match!: Curtis Cooper
+== Adding qualifiers to author item...
+==	Added P9687: Curtis
+==	Added P9688: Cooper
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Dugald Seely
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Edward J. Mills
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Curtis Cooper
+==	Perfect match!: Dugald Seely
+== Adding qualifiers to author item...
+==	Added P9687: Dugald
+==	Added P9688: Seely
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Izzy Kanfer
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Edward J. Mills
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Curtis Cooper
+==	No match! Incorrect given names: Dugald Seely
+==	Perfect match!: Izzy Kanfer
+== Adding qualifiers to author item...
+==	Added P9687: Izzy
+==	Added P9688: Kanfer
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                          Updating author info in: Systematic review of methods for evaluating healthcare research economic impact (Q21245519)                          
+                                                              Using database P698 with article ID 20196839                                                              
+                                                            Author given names: ['Bahareh', 'Reza', 'Hojat']                                                            
+                                                     Author family names: ['Yazdizadeh', 'Majdzadeh', 'Salmasian']                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Bahareh Yazdizadeh
+== Trying to find author in existing author name string items...
+==	Perfect match!: Bahareh Yazdizadeh
+== Adding qualifiers to author item...
+==	Added P9687: Bahareh
+==	Added P9688: Yazdizadeh
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Reza Majdzadeh
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Bahareh Yazdizadeh
+==	Perfect match!: Reza Majdzadeh
+== Adding qualifiers to author item...
+==	Added P9687: Reza
+==	Added P9688: Majdzadeh
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Hojat Salmasian
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Bahareh Yazdizadeh
+==	No match! Incorrect given names: Reza Majdzadeh
+==	Perfect match!: Hojat Salmasian
+== Adding qualifiers to author item...
+==	Added P9687: Hojat
+==	Added P9688: Salmasian
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: Differences in wage rates for males and females in the health sector: a consideration of unpaid overtime to decompose the gender wage gap (Q21245531)
+                                                              Using database P698 with article ID 23433245                                                              
+                                                   Author given names: ['Nerina', 'Paul A', 'Michael F', 'Harvey A']                                                    
+                                                  Author family names: ['Vecchio', 'Scuffham', 'Hilton', 'Whiteford']                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Nerina Vecchio
+== Trying to find author in existing author items...
+==	Perfect match!: Nerina Vecchio
+== Adding qualifiers to author item...
+==	Added P1932: Nerina Vecchio
+==	Added P9687: Nerina
+==	Added P9688: Vecchio
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Paul A Scuffham
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Nerina Vecchio
+==	Manually found match!: Paul A. Scuffham
+== Adding qualifiers to author item...
+==	Added P1932: Paul A Scuffham
+==	Added P9687: Paul A
+==	Added P9688: Scuffham
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Michael F Hilton
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Nerina Vecchio
+==	No match! Incorrect given names: Paul A. Scuffham
+==	No match! Incorrect given names: Harvey Whiteford
+== Trying to find author in existing author name string items...
+==	Perfect match!: Michael F Hilton
+== Adding qualifiers to author item...
+==	Added P9687: Michael F
+==	Added P9688: Hilton
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Harvey A Whiteford
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Nerina Vecchio
+==	No match! Incorrect given names: Paul A. Scuffham
+==	Alias match!: Harvey A Whiteford
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Harvey A
+==	Added P9688: Whiteford
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            Updating author info in: Reduced coronary flow reserve in Anderson-Fabry disease measured by transthoracic Doppler echocardiography (Q21245672)             
+                                                              Using database P698 with article ID 15857518                                                              
+                                                        Author given names: ['Paweł Petkow', 'Marek', 'Anetta']                                                         
+                                                        Author family names: ['Dimitrow', 'Krzanowski', 'Undas']                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Paweł Petkow Dimitrow
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Anetta Undas
+== Trying to find author in existing author name string items...
+==	Perfect match!: Paweł Petkow Dimitrow
+== Adding qualifiers to author item...
+==	Added P9687: Paweł Petkow
+==	Added P9688: Dimitrow
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Marek Krzanowski
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Anetta Undas
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Paweł Petkow Dimitrow
+==	Perfect match!: Marek Krzanowski
+== Adding qualifiers to author item...
+==	Added P9687: Marek
+==	Added P9688: Krzanowski
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Anetta Undas
+== Trying to find author in existing author items...
+==	Perfect match!: Anetta Undas
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Anetta
+==	Added P9688: Undas
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     Updating author info in: Cancers of unknown primary origin: current perspectives and future therapeutic strategies (Q21245496)                     
+                                                              Using database P698 with article ID 22272606                                                              
+                                            Author given names: ['Giulia Maria', 'Rebecca', 'Adele', 'Margherita', 'Paola']                                             
+                                               Author family names: ['Stella', 'Senetta', 'Cassenti', 'Ronco', 'Cassoni']                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Giulia Maria Stella
+== Trying to find author in existing author name string items...
+==	Perfect match!: Giulia Maria Stella
+== Adding qualifiers to author item...
+==	Added P9687: Giulia Maria
+==	Added P9688: Stella
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Rebecca Senetta
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Giulia Maria Stella
+==	Perfect match!: Rebecca Senetta
+== Adding qualifiers to author item...
+==	Added P9687: Rebecca
+==	Added P9688: Senetta
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Adele Cassenti
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Giulia Maria Stella
+==	No match! Incorrect given names: Rebecca Senetta
+==	Perfect match!: Adele Cassenti
+== Adding qualifiers to author item...
+==	Added P9687: Adele
+==	Added P9688: Cassenti
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Margherita Ronco
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Giulia Maria Stella
+==	No match! Incorrect given names: Rebecca Senetta
+==	No match! Incorrect given names: Adele Cassenti
+==	Perfect match!: Margherita Ronco
+== Adding qualifiers to author item...
+==	Added P9687: Margherita
+==	Added P9688: Ronco
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Paola Cassoni
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Giulia Maria Stella
+==	No match! Incorrect given names: Rebecca Senetta
+==	No match! Incorrect given names: Adele Cassenti
+==	No match! Incorrect given names: Margherita Ronco
+==	Perfect match!: Paola Cassoni
+== Adding qualifiers to author item...
+==	Added P9687: Paola
+==	Added P9688: Cassoni
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         Updating author info in: A high resolution spatial population database of Somalia for disease risk mapping (Q21245781)                         
+                                                              Using database P698 with article ID 20840751                                                              
+                                          Author given names: ['Catherine', 'Victor A', 'Abdisalan M', 'Robert W', 'Andrew J']                                          
+                                                  Author family names: ['Linard', 'Alegana', 'Noor', 'Snow', 'Tatem']                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Catherine Linard
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Victor Alegana
+==	No match! Incorrect given names: Robert W Snow
+==	No match! Incorrect given names: Andrew J. Tatem
+==	Perfect match!: Catherine Linard
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Catherine
+==	Added P9688: Linard
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Victor A Alegana
+== Trying to find author in existing author items...
+==	Manually found match!: Victor Alegana
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Victor A
+==	Added P9688: Alegana
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Abdisalan M Noor
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Victor Alegana
+==	No match! Incorrect given names: Robert W Snow
+==	No match! Incorrect given names: Andrew J. Tatem
+==	No match! Incorrect given names: Catherine Linard
+==	Alias match!: Abdisalan M Noor
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Abdisalan M
+==	Added P9688: Noor
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Robert W Snow
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Victor Alegana
+==	Perfect match!: Robert W Snow
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Robert W
+==	Added P9688: Snow
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Andrew J Tatem
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Victor Alegana
+==	No match! Incorrect given names: Robert W Snow
+==	Alias match!: Andrew J Tatem
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Andrew J
+==	Added P9688: Tatem
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Updating author info in: Epigenetic regulation of caloric restriction in aging (Q21245250)                                       
+                                                              Using database P698 with article ID 21867551                                                              
+                                                        Author given names: ['Yuanyuan', 'Michael', 'Trygve O']                                                         
+                                                          Author family names: ['Li', 'Daniel', 'Tollefsbol']                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Yuanyuan Li
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Trygve O Tollefsbol
+== Trying to find author in existing author name string items...
+==	Perfect match!: Yuanyuan Li
+== Adding qualifiers to author item...
+==	Added P9687: Yuanyuan
+==	Added P9688: Li
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Michael Daniel
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Trygve O Tollefsbol
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Yuanyuan Li
+==	Perfect match!: Michael Daniel
+== Adding qualifiers to author item...
+==	Added P9687: Michael
+==	Added P9688: Daniel
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Trygve O Tollefsbol
+== Trying to find author in existing author items...
+==	Perfect match!: Trygve O Tollefsbol
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Trygve O
+==	Added P9688: Tollefsbol
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Updating author info in: The basal transcription machinery as a target for cancer therapy (Q21246017)                                  
+                                                              Using database P698 with article ID 24576043                                                              
+                                                           Author given names: ['Claudia', 'Grisel', 'Mario']                                                           
+                                                          Author family names: ['Villicaña', 'Cruz', 'Zurita']                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Claudia Villicaña
+== Trying to find author in existing author items...
+==	Perfect match!: Claudia Villicaña
+== Adding qualifiers to author item...
+==	Added P1932: Claudia Villicaña
+==	Added P9687: Claudia
+==	Added P9688: Villicaña
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Grisel Cruz
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Claudia Villicaña
+== Trying to find author in existing author name string items...
+==	Perfect match!: Grisel Cruz
+== Adding qualifiers to author item...
+==	Added P9687: Grisel
+==	Added P9688: Cruz
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Mario Zurita
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Claudia Villicaña
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Grisel Cruz
+==	Perfect match!: Mario Zurita
+== Adding qualifiers to author item...
+==	Added P9687: Mario
+==	Added P9688: Zurita
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Updating author info in: Vasectomy by ligation and excision, with or without fascial interposition: a randomized controlled trial [ISRCTN77781689] (Q21245279)     
+                                                              Using database P698 with article ID 15056388                                                              
+                                                 Author given names: ['David', 'Belinda', 'Melissa', 'Mario', 'Mark A']                                                 
+                                                 Author family names: ['Sokal', 'Irsula', 'Hays', 'Chen-Mok', 'Barone']                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: David Sokal
+== Trying to find author in existing author name string items...
+==	Perfect match!: David Sokal
+== Adding qualifiers to author item...
+==	Added P9687: David
+==	Added P9688: Sokal
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Belinda Irsula
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: David Sokal
+==	Perfect match!: Belinda Irsula
+== Adding qualifiers to author item...
+==	Added P9687: Belinda
+==	Added P9688: Irsula
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Melissa Hays
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: David Sokal
+==	No match! Incorrect given names: Belinda Irsula
+==	Perfect match!: Melissa Hays
+== Adding qualifiers to author item...
+==	Added P9687: Melissa
+==	Added P9688: Hays
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Mario Chen-Mok
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: David Sokal
+==	No match! Incorrect given names: Belinda Irsula
+==	No match! Incorrect given names: Melissa Hays
+==	Perfect match!: Mario Chen-Mok
+== Adding qualifiers to author item...
+==	Added P9687: Mario
+==	Added P9688: Chen-Mok
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Mark A Barone
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: David Sokal
+==	No match! Incorrect given names: Belinda Irsula
+==	No match! Incorrect given names: Melissa Hays
+==	No match! Incorrect given names: Mario Chen-Mok
+==	Perfect match!: Mark A Barone
+== Adding qualifiers to author item...
+==	Added P9687: Mark A
+==	Added P9688: Barone
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: Expression and extracellular release of a functional anti-trypanosome Nanobody® in Sodalis glossinidius, a bacterial symbiont of the tsetse fly (Q21246029)
+                                                              Using database P698 with article ID 22335892                                                              
+                                                Author given names: ['Linda', 'Guy', 'Benoît', 'Patrick', 'Marc', 'Jan']                                                
+                              Author family names: ['De Vooght', 'Caljon', 'Stijlemans', 'De Baetselier', 'Coosemans', 'Van den Abbeele']                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Linda De Vooght
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Patrick De Baetselier
+==	No match! Incorrect given names: Marc Coosemans
+==	No match! Incorrect given names: Guy Caljon
+==	No match! Incorrect given names: Benoît Stijlemans
+==	Perfect match!: Linda De Vooght
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Linda
+==	Added P9688: De Vooght
+==	Added P1545: 1
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Guy Caljon
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Patrick De Baetselier
+==	No match! Incorrect given names: Marc Coosemans
+==	Perfect match!: Guy Caljon
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Guy
+==	Added P9688: Caljon
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Benoît Stijlemans
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Patrick De Baetselier
+==	No match! Incorrect given names: Marc Coosemans
+==	No match! Incorrect given names: Guy Caljon
+==	Perfect match!: Benoît Stijlemans
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Benoît
+==	Added P9688: Stijlemans
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Patrick De Baetselier
+== Trying to find author in existing author items...
+==	Perfect match!: Patrick De Baetselier
+== Adding qualifiers to author item...
+==	Added P1932: Patrick De Baetselier
+==	Added P9687: Patrick
+==	Added P9688: De Baetselier
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Marc Coosemans
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Patrick De Baetselier
+==	Perfect match!: Marc Coosemans
+== Adding qualifiers to author item...
+==	Added P1932: Marc Coosemans
+==	Added P9687: Marc
+==	Added P9688: Coosemans
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Jan Van den Abbeele
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Patrick De Baetselier
+==	No match! Incorrect given names: Marc Coosemans
+==	No match! Incorrect given names: Guy Caljon
+==	No match! Incorrect given names: Benoît Stijlemans
+==	No match! Incorrect given names: Linda De Vooght
+==	Manually found match!: Jan Van Den Abbeele
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Jan
+==	Added P9688: Van den Abbeele
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Updating author info in: Overview of emerging nonvolatile memory technologies (Q21245407)                                        
+                                                              Using database P698 with article ID 25278820                                                              
+                                                Author given names: ['Jagan Singh', 'Simon Min', 'Umesh', 'Tseung-Yuen']                                                
+                                                        Author family names: ['Meena', 'Sze', 'Chand', 'Tseng']                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Jagan Singh Meena
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Simon Sze
+== Trying to find author in existing author name string items...
+==	Perfect match!: Jagan Singh Meena
+== Adding qualifiers to author item...
+==	Added P9687: Jagan Singh
+==	Added P9688: Meena
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Simon Min Sze
+== Trying to find author in existing author items...
+==	Alias match!: Simon Min Sze
+== Adding qualifiers to author item...
+==	Added P1932: Simon Min Sze
+==	Added P9687: Simon Min
+==	Added P9688: Sze
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Umesh Chand
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Simon Sze
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Jagan Singh Meena
+==	Perfect match!: Umesh Chand
+== Adding qualifiers to author item...
+==	Added P9687: Umesh
+==	Added P9688: Chand
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Tseung-Yuen Tseng
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Simon Sze
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Jagan Singh Meena
+==	No match! Incorrect given names: Umesh Chand
+==	Perfect match!: Tseung-Yuen Tseng
+== Adding qualifiers to author item...
+==	Added P9687: Tseung-Yuen
+==	Added P9688: Tseng
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: Effects of methoxyisoflavone, ecdysterone, and sulfo-polysaccharide supplementation on training adaptations in resistance-trained males (Q21245430)
+                                                              Using database P698 with article ID 18500969                                                              
+                                    Author given names: ['Colin D', 'Lemuel W', 'Bill I', 'Chad', 'Chris J', 'Michael', 'Richard B']                                    
+                                Author family names: ['Wilborn', 'Taylor', 'Campbell', 'Kerksick', 'Rasmussen', 'Greenwood', 'Kreider']                                 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Colin D Wilborn
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	Perfect match!: Colin D Wilborn
+== Adding qualifiers to author item...
+==	Added P9687: Colin D
+==	Added P9688: Wilborn
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Lemuel W Taylor
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	Perfect match!: Lemuel W Taylor
+== Adding qualifiers to author item...
+==	Added P9687: Lemuel W
+==	Added P9688: Taylor
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Bill I Campbell
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Lemuel W Taylor
+==	Perfect match!: Bill I Campbell
+== Adding qualifiers to author item...
+==	Added P9687: Bill I
+==	Added P9688: Campbell
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Chad Kerksick
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Lemuel W Taylor
+==	No match! Incorrect given names: Bill I Campbell
+==	Perfect match!: Chad Kerksick
+== Adding qualifiers to author item...
+==	Added P9687: Chad
+==	Added P9688: Kerksick
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Chris J Rasmussen
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Lemuel W Taylor
+==	No match! Incorrect given names: Bill I Campbell
+==	No match! Incorrect given names: Chad Kerksick
+==	Perfect match!: Chris J Rasmussen
+== Adding qualifiers to author item...
+==	Added P9687: Chris J
+==	Added P9688: Rasmussen
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Michael Greenwood
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Lemuel W Taylor
+==	No match! Incorrect given names: Bill I Campbell
+==	No match! Incorrect given names: Chad Kerksick
+==	No match! Incorrect given names: Chris J Rasmussen
+==	Perfect match!: Michael Greenwood
+== Adding qualifiers to author item...
+==	Added P9687: Michael
+==	Added P9688: Greenwood
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Richard B Kreider
+== Trying to find author in existing author items...
+==	Perfect match!: Richard B Kreider
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Richard B
+==	Added P9688: Kreider
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: Multilevel model to assess sources of variation in follicular growth close to the time of ovulation in women with normal fertility: a multicenter observational study (Q21245547)
+                                                              Using database P698 with article ID 19077200                                                              
+                                                          Author given names: ['Rafael T', 'Joseph B', 'René']                                                          
+                                                      Author family names: ['Mikolajczyk', 'Stanford', 'Ecochard']                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Rafael T Mikolajczyk
+== Trying to find author in existing author items...
+==	Alias match!: Rafael T Mikolajczyk
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Rafael T
+==	Added P9688: Mikolajczyk
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Joseph B Stanford
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rafael Mikolajczyk
+== Trying to find author in existing author name string items...
+==	Perfect match!: Joseph B Stanford
+== Adding qualifiers to author item...
+==	Added P9687: Joseph B
+==	Added P9688: Stanford
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: René Ecochard
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rafael Mikolajczyk
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Joseph B Stanford
+==	Perfect match!: René Ecochard
+== Adding qualifiers to author item...
+==	Added P9687: René
+==	Added P9688: Ecochard
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: Rate of first recorded diagnosis of autism and other pervasive developmental disorders in United Kingdom general practice, 1988 to 2001 (Q21245280)
+                                                              Using database P698 with article ID 15535890                                                              
+                                   Author given names: ['Liam', 'Claire', 'Professor Eric', 'Lisa', 'Laura C', 'Peter G', 'Andrew J']                                   
+                                      Author family names: ['Smeeth', 'Cook', 'Fombonne', 'Heavey', 'Rodrigues', 'Smith', 'Hall']                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Liam Smeeth
+== Trying to find author in existing author items...
+==	Perfect match!: Liam Smeeth
+== Adding qualifiers to author item...
+==	Added P1932: Liam Smeeth
+==	Added P9687: Liam
+==	Added P9688: Smeeth
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Claire Cook
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Liam Smeeth
+==	No match! Incorrect given names: Laura C Rodrigues
+==	No match! Incorrect given names: Lisa Heavey
+== Trying to find author in existing author name string items...
+==	Perfect match!: Claire Cook
+== Adding qualifiers to author item...
+==	Added P9687: Claire
+==	Added P9688: Cook
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Professor Eric Fombonne
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Liam Smeeth
+==	No match! Incorrect given names: Laura C Rodrigues
+==	No match! Incorrect given names: Lisa Heavey
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Claire Cook
+==	Perfect match!: Professor Eric Fombonne
+== Adding qualifiers to author item...
+==	Added P9687: Professor Eric
+==	Added P9688: Fombonne
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Lisa Heavey
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Liam Smeeth
+==	No match! Incorrect given names: Laura C Rodrigues
+==	Perfect match!: Lisa Heavey
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Lisa
+==	Added P9688: Heavey
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Laura C Rodrigues
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Liam Smeeth
+==	Perfect match!: Laura C Rodrigues
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Laura C
+==	Added P9688: Rodrigues
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Peter G Smith
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Liam Smeeth
+==	No match! Incorrect given names: Laura C Rodrigues
+==	No match! Incorrect given names: Lisa Heavey
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Claire Cook
+==	No match! Incorrect given names: Professor Eric Fombonne
+==	Perfect match!: Peter G Smith
+== Adding qualifiers to author item...
+==	Added P9687: Peter G
+==	Added P9688: Smith
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Andrew J Hall
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Liam Smeeth
+==	No match! Incorrect given names: Laura C Rodrigues
+==	No match! Incorrect given names: Lisa Heavey
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Claire Cook
+==	No match! Incorrect given names: Professor Eric Fombonne
+==	No match! Incorrect given names: Peter G Smith
+==	Perfect match!: Andrew J Hall
+== Adding qualifiers to author item...
+==	Added P9687: Andrew J
+==	Added P9688: Hall
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Updating author info in: Effects of Zinc Magnesium Aspartate (ZMA) Supplementation on Training Adaptations and Markers of Anabolism and Catabolism (Q21245432)     
+                                                              Using database P698 with article ID 18500945                                                              
+                      Author given names: ['Colin D', 'Chad M', 'Bill I', 'Lem W', 'Brandon M', 'Christopher J', 'Mike C', 'Anthony', 'Richard B']                      
+                     Author family names: ['Wilborn', 'Kerksick', 'Campbell', 'Taylor', 'Marcello', 'Rasmussen', 'Greenwood', 'Almada', 'Kreider']                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Colin D Wilborn
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	Perfect match!: Colin D Wilborn
+== Adding qualifiers to author item...
+==	Added P9687: Colin D
+==	Added P9688: Wilborn
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Chad M Kerksick
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	Perfect match!: Chad M Kerksick
+== Adding qualifiers to author item...
+==	Added P9687: Chad M
+==	Added P9688: Kerksick
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Bill I Campbell
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Chad M Kerksick
+==	Perfect match!: Bill I Campbell
+== Adding qualifiers to author item...
+==	Added P9687: Bill I
+==	Added P9688: Campbell
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Lem W Taylor
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Chad M Kerksick
+==	No match! Incorrect given names: Bill I Campbell
+==	Perfect match!: Lem W Taylor
+== Adding qualifiers to author item...
+==	Added P9687: Lem W
+==	Added P9688: Taylor
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Brandon M Marcello
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Chad M Kerksick
+==	No match! Incorrect given names: Bill I Campbell
+==	No match! Incorrect given names: Lem W Taylor
+==	Perfect match!: Brandon M Marcello
+== Adding qualifiers to author item...
+==	Added P9687: Brandon M
+==	Added P9688: Marcello
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Christopher J Rasmussen
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Chad M Kerksick
+==	No match! Incorrect given names: Bill I Campbell
+==	No match! Incorrect given names: Lem W Taylor
+==	No match! Incorrect given names: Brandon M Marcello
+==	Perfect match!: Christopher J Rasmussen
+== Adding qualifiers to author item...
+==	Added P9687: Christopher J
+==	Added P9688: Rasmussen
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Mike C Greenwood
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Chad M Kerksick
+==	No match! Incorrect given names: Bill I Campbell
+==	No match! Incorrect given names: Lem W Taylor
+==	No match! Incorrect given names: Brandon M Marcello
+==	No match! Incorrect given names: Christopher J Rasmussen
+==	Perfect match!: Mike C Greenwood
+== Adding qualifiers to author item...
+==	Added P9687: Mike C
+==	Added P9688: Greenwood
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Anthony Almada
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Richard B Kreider
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Colin D Wilborn
+==	No match! Incorrect given names: Chad M Kerksick
+==	No match! Incorrect given names: Bill I Campbell
+==	No match! Incorrect given names: Lem W Taylor
+==	No match! Incorrect given names: Brandon M Marcello
+==	No match! Incorrect given names: Christopher J Rasmussen
+==	No match! Incorrect given names: Mike C Greenwood
+==	Perfect match!: Anthony Almada
+== Adding qualifiers to author item...
+==	Added P9687: Anthony
+==	Added P9688: Almada
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Richard B Kreider
+== Trying to find author in existing author items...
+==	Perfect match!: Richard B Kreider
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Richard B
+==	Added P9688: Kreider
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+               Updating author info in: Simulation of an SEIR infectious disease model on the dynamic contact network of conference attendees (Q21245251)               
+                                                              Using database P698 with article ID 21771290                                                              
+            Author given names: ['Juliette', 'Nicolas', 'Alain', 'Ciro', 'Vittoria', 'Lorenzo', 'Corinne', 'Jean-François', 'Nagham', 'Wouter', 'Philippe']             
+            Author family names: ['Stehlé', 'Voirin', 'Barrat', 'Cattuto', 'Colizza', 'Isella', 'Régis', 'Pinton', 'Khanafer', 'Van den Broeck', 'Vanhems']             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Juliette Stehlé
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	No match! Incorrect given names: Jean-François Pinton
+==	Perfect match!: Juliette Stehlé
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Juliette
+==	Added P9688: Stehlé
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Nicolas Voirin
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	No match! Incorrect given names: Jean-François Pinton
+==	No match! Incorrect given names: Juliette Stehlé
+== Trying to find author in existing author name string items...
+==	Perfect match!: Nicolas Voirin
+== Adding qualifiers to author item...
+==	Added P9687: Nicolas
+==	Added P9688: Voirin
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Alain Barrat
+== Trying to find author in existing author items...
+==	Perfect match!: Alain Barrat
+== Adding qualifiers to author item...
+==	Added P1932: Alain Barrat
+==	Added P9687: Alain
+==	Added P9688: Barrat
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Ciro Cattuto
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	Perfect match!: Ciro Cattuto
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Ciro
+==	Added P9688: Cattuto
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Vittoria Colizza
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	Perfect match!: Vittoria Colizza
+== Adding qualifiers to author item...
+==	Added P1932: Vittoria Colizza
+==	Added P9687: Vittoria
+==	Added P9688: Colizza
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Lorenzo Isella
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	No match! Incorrect given names: Jean-François Pinton
+==	No match! Incorrect given names: Juliette Stehlé
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Nicolas Voirin
+==	Perfect match!: Lorenzo Isella
+== Adding qualifiers to author item...
+==	Added P9687: Lorenzo
+==	Added P9688: Isella
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Corinne Régis
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	No match! Incorrect given names: Jean-François Pinton
+==	No match! Incorrect given names: Juliette Stehlé
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Nicolas Voirin
+==	No match! Incorrect given names: Lorenzo Isella
+==	Perfect match!: Corinne Régis
+== Adding qualifiers to author item...
+==	Added P9687: Corinne
+==	Added P9688: Régis
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Jean-François Pinton
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	Perfect match!: Jean-François Pinton
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Jean-François
+==	Added P9688: Pinton
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Nagham Khanafer
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	No match! Incorrect given names: Jean-François Pinton
+==	No match! Incorrect given names: Juliette Stehlé
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Nicolas Voirin
+==	No match! Incorrect given names: Lorenzo Isella
+==	No match! Incorrect given names: Corinne Régis
+==	Perfect match!: Nagham Khanafer
+== Adding qualifiers to author item...
+==	Added P9687: Nagham
+==	Added P9688: Khanafer
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Wouter Van den Broeck
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	Perfect match!: Wouter Van den Broeck
+== Adding qualifiers to author item...
+==	Added P1932: Wouter Van den Broeck
+==	Added P9687: Wouter
+==	Added P9688: Van den Broeck
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Philippe Vanhems
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Alain Barrat
+==	No match! Incorrect given names: Wouter Van den Broeck
+==	No match! Incorrect given names: Vittoria Colizza
+==	No match! Incorrect given names: Ciro Cattuto
+==	No match! Incorrect given names: Jean-François Pinton
+==	No match! Incorrect given names: Juliette Stehlé
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Nicolas Voirin
+==	No match! Incorrect given names: Lorenzo Isella
+==	No match! Incorrect given names: Corinne Régis
+==	No match! Incorrect given names: Nagham Khanafer
+==	Perfect match!: Philippe Vanhems
+== Adding qualifiers to author item...
+==	Added P9687: Philippe
+==	Added P9688: Vanhems
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          Updating author info in: Evidence for placebo effects on physical but not on biochemical outcome parameters: a review of clinical trials (Q21245273)          
+                                                              Using database P698 with article ID 17371590                                                              
+                                                             Author given names: ['Karin', 'Hans', 'Ulla']                                                              
+                                                        Author family names: ['Meissner', 'Distel', 'Mitzdorf']                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Karin Meissner
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Ulla Mitzdorf
+== Trying to find author in existing author name string items...
+==	Perfect match!: Karin Meissner
+== Adding qualifiers to author item...
+==	Added P9687: Karin
+==	Added P9688: Meissner
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Hans Distel
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Ulla Mitzdorf
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Karin Meissner
+==	Perfect match!: Hans Distel
+== Adding qualifiers to author item...
+==	Added P9687: Hans
+==	Added P9688: Distel
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Ulla Mitzdorf
+== Trying to find author in existing author items...
+==	Perfect match!: Ulla Mitzdorf
+== Adding qualifiers to author item...
+==	Added P1932: Ulla Mitzdorf
+==	Added P9687: Ulla
+==	Added P9688: Mitzdorf
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       Updating author info in: Multicentre evaluations of two new rapid IgG4 tests (WB rapid and panLF rapid) for detection of lymphatic filariasis (Q21245927)        
+                                                              Using database P698 with article ID 17961262                                                              
+                             Author given names: ['Rahmah', 'Makoto', 'Eisaku', 'Rohana', 'Balachandran', 'Rohela', 'Taniawati', 'Mirani']                              
+                          Author family names: ['Noordin', 'Itoh', 'Kimura', 'Abdul Rahman', 'Ravindran', 'Mahmud', 'Supali', 'Weerasooriya']                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Rahmah Noordin
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	Perfect match!: Rahmah Noordin
+== Adding qualifiers to author item...
+==	Added P9687: Rahmah
+==	Added P9688: Noordin
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Makoto Itoh
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Rahmah Noordin
+==	Perfect match!: Makoto Itoh
+== Adding qualifiers to author item...
+==	Added P9687: Makoto
+==	Added P9688: Itoh
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Eisaku Kimura
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Rahmah Noordin
+==	No match! Incorrect given names: Makoto Itoh
+==	Perfect match!: Eisaku Kimura
+== Adding qualifiers to author item...
+==	Added P9687: Eisaku
+==	Added P9688: Kimura
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Rohana Abdul Rahman
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Rahmah Noordin
+==	No match! Incorrect given names: Makoto Itoh
+==	No match! Incorrect given names: Eisaku Kimura
+==	Perfect match!: Rohana Abdul Rahman
+== Adding qualifiers to author item...
+==	Added P9687: Rohana
+==	Added P9688: Abdul Rahman
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Balachandran Ravindran
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Rahmah Noordin
+==	No match! Incorrect given names: Makoto Itoh
+==	No match! Incorrect given names: Eisaku Kimura
+==	No match! Incorrect given names: Rohana Abdul Rahman
+==	Perfect match!: Balachandran Ravindran
+== Adding qualifiers to author item...
+==	Added P9687: Balachandran
+==	Added P9688: Ravindran
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Rohela Mahmud
+== Trying to find author in existing author items...
+==	Perfect match!: Rohela Mahmud
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Rohela
+==	Added P9688: Mahmud
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Taniawati Supali
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Rahmah Noordin
+==	No match! Incorrect given names: Makoto Itoh
+==	No match! Incorrect given names: Eisaku Kimura
+==	No match! Incorrect given names: Rohana Abdul Rahman
+==	No match! Incorrect given names: Balachandran Ravindran
+==	Perfect match!: Taniawati Supali
+== Adding qualifiers to author item...
+==	Added P9687: Taniawati
+==	Added P9688: Supali
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Mirani Weerasooriya
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rohela Mahmud
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Rahmah Noordin
+==	No match! Incorrect given names: Makoto Itoh
+==	No match! Incorrect given names: Eisaku Kimura
+==	No match! Incorrect given names: Rohana Abdul Rahman
+==	No match! Incorrect given names: Balachandran Ravindran
+==	No match! Incorrect given names: Taniawati Supali
+==	Perfect match!: Mirani Weerasooriya
+== Adding qualifiers to author item...
+==	Added P9687: Mirani
+==	Added P9688: Weerasooriya
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                   Updating author info in: Anatomy of open access publishing: a study of longitudinal development and internal structure (Q21245304)                   
+                                                              Using database P698 with article ID 23088823                                                              
+                                                             Author given names: ['Mikael', 'Bo-Christer']                                                              
+                                                                Author family names: ['Laakso', 'Björk']                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Mikael Laakso
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Bo-Christer Björk
+==	Perfect match!: Mikael Laakso
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Mikael
+==	Added P9688: Laakso
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Bo-Christer Björk
+== Trying to find author in existing author items...
+==	Perfect match!: Bo-Christer Björk
+== Adding qualifiers to author item...
+==	Added P1932: Bo-Christer Björk
+==	Added P9687: Bo-Christer
+==	Added P9688: Björk
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Updating author info in: Nutritional therapies for mental disorders (Q21245899)                                             
+                                                              Using database P698 with article ID 18208598                                                              
+                                                              Author given names: ['Shaheen E', 'Karen F']                                                              
+                                                               Author family names: ['Lakhan', 'Vieira']                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Shaheen E Lakhan
+== Trying to find author in existing author items...
+==	Manually found match!: Shaheen Lakhan
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Shaheen E
+==	Added P9688: Lakhan
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Karen F Vieira
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Shaheen Lakhan
+== Trying to find author in existing author name string items...
+==	Perfect match!: Karen F Vieira
+== Adding qualifiers to author item...
+==	Added P9687: Karen F
+==	Added P9688: Vieira
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                      Updating author info in: Quality control of inclusion bodies in Escherichia coli (Q21246020)                                      
+                                                              Using database P698 with article ID 20509924                                                              
+                                   Author given names: ['Britta', 'Antje', 'Vlada', 'Knut', 'Hongying', 'Michael', 'Thomas', 'Peter']                                   
+                            Author family names: ['Jürgen', 'Breitenstein', 'Urlacher', 'Büttner', 'Lin', 'Hecker', 'Schweder', 'Neubauer']                             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Britta Jürgen
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	No match! Incorrect given names: Thomas Schweder
+==	No match! Incorrect given names: Peter Neubauer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Britta Jürgen
+== Adding qualifiers to author item...
+==	Added P9687: Britta
+==	Added P9688: Jürgen
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Antje Breitenstein
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	No match! Incorrect given names: Thomas Schweder
+==	No match! Incorrect given names: Peter Neubauer
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Britta Jürgen
+==	Perfect match!: Antje Breitenstein
+== Adding qualifiers to author item...
+==	Added P9687: Antje
+==	Added P9688: Breitenstein
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Vlada Urlacher
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	No match! Incorrect given names: Thomas Schweder
+==	No match! Incorrect given names: Peter Neubauer
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Britta Jürgen
+==	No match! Incorrect given names: Antje Breitenstein
+==	Perfect match!: Vlada Urlacher
+== Adding qualifiers to author item...
+==	Added P9687: Vlada
+==	Added P9688: Urlacher
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Knut Büttner
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	No match! Incorrect given names: Thomas Schweder
+==	No match! Incorrect given names: Peter Neubauer
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Britta Jürgen
+==	No match! Incorrect given names: Antje Breitenstein
+==	No match! Incorrect given names: Vlada Urlacher
+==	Perfect match!: Knut Büttner
+== Adding qualifiers to author item...
+==	Added P9687: Knut
+==	Added P9688: Büttner
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Hongying Lin
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	No match! Incorrect given names: Thomas Schweder
+==	No match! Incorrect given names: Peter Neubauer
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Britta Jürgen
+==	No match! Incorrect given names: Antje Breitenstein
+==	No match! Incorrect given names: Vlada Urlacher
+==	No match! Incorrect given names: Knut Büttner
+==	Perfect match!: Hongying Lin
+== Adding qualifiers to author item...
+==	Added P9687: Hongying
+==	Added P9688: Lin
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Michael Hecker
+== Trying to find author in existing author items...
+==	Perfect match!: Michael Hecker
+== Adding qualifiers to author item...
+==	Added P1932: Michael Hecker
+==	Added P9687: Michael
+==	Added P9688: Hecker
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Thomas Schweder
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	Perfect match!: Thomas Schweder
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Thomas
+==	Added P9688: Schweder
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Peter Neubauer
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael Hecker
+==	No match! Incorrect given names: Thomas Schweder
+==	Perfect match!: Peter Neubauer
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Peter
+==	Added P9688: Neubauer
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Updating author info in: A case of anaphylaxis to peppermint (Q21245396)                                                
+                                                              Using database P698 with article ID 24472564                                                              
+                                                                Author given names: ['Roian', 'Rozita']                                                                 
+                                                             Author family names: ['Bayat', 'Borici-Mazi']                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Roian Bayat
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Rozita Borici-Mazi
+== Trying to find author in existing author name string items...
+==	Perfect match!: Roian Bayat
+== Adding qualifiers to author item...
+==	Added P9687: Roian
+==	Added P9688: Bayat
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Rozita Borici-Mazi
+== Trying to find author in existing author items...
+==	Perfect match!: Rozita Borici-Mazi
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Rozita
+==	Added P9688: Borici-Mazi
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           Updating author info in: The loss of NKX3.1 expression in testicular--and prostate--cancers is not caused by promoter hypermethylation (Q21245744)           
+                                                              Using database P698 with article ID 15691383                                                              
+                            Author given names: ['Guro E', 'Rolf I', 'Mario F', 'Vera M', 'Rui', 'Fahri', 'Manel', 'Manuel R', 'Ragnhild A']                            
+                        Author family names: ['Lind', 'Skotheim', 'Fraga', 'Abeler', 'Henrique', 'Saatcioglu', 'Esteller', 'Teixeira', 'Lothe']                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Guro E Lind
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	No match! Incorrect given names: Manuel R. Teixeira
+==	No match! Incorrect given names: Ragnhild A. Lothe
+==	No match! Incorrect given names: Rolf Inge Skotheim
+== Trying to find author in existing author name string items...
+==	Perfect match!: Guro E Lind
+== Adding qualifiers to author item...
+==	Added P9687: Guro E
+==	Added P9688: Lind
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Rolf I Skotheim
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	No match! Incorrect given names: Manuel R. Teixeira
+==	No match! Incorrect given names: Ragnhild A. Lothe
+==	Manually found match!: Rolf Inge Skotheim
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Rolf I
+==	Added P9688: Skotheim
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Mario F Fraga
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	No match! Incorrect given names: Manuel R. Teixeira
+==	No match! Incorrect given names: Ragnhild A. Lothe
+==	No match! Incorrect given names: Rolf Inge Skotheim
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Guro E Lind
+==	Perfect match!: Mario F Fraga
+== Adding qualifiers to author item...
+==	Added P9687: Mario F
+==	Added P9688: Fraga
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Vera M Abeler
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	No match! Incorrect given names: Manuel R. Teixeira
+==	No match! Incorrect given names: Ragnhild A. Lothe
+==	No match! Incorrect given names: Rolf Inge Skotheim
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Guro E Lind
+==	No match! Incorrect given names: Mario F Fraga
+==	Perfect match!: Vera M Abeler
+== Adding qualifiers to author item...
+==	Added P9687: Vera M
+==	Added P9688: Abeler
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Rui Henrique
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	Perfect match!: Rui Henrique
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Rui
+==	Added P9688: Henrique
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Fahri Saatcioglu
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	No match! Incorrect given names: Manuel R. Teixeira
+==	No match! Incorrect given names: Ragnhild A. Lothe
+==	No match! Incorrect given names: Rolf Inge Skotheim
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Guro E Lind
+==	No match! Incorrect given names: Mario F Fraga
+==	No match! Incorrect given names: Vera M Abeler
+==	Perfect match!: Fahri Saatcioglu
+== Adding qualifiers to author item...
+==	Added P9687: Fahri
+==	Added P9688: Saatcioglu
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Manel Esteller
+== Trying to find author in existing author items...
+==	Perfect match!: Manel Esteller
+== Adding qualifiers to author item...
+==	Added P1932: Manel Esteller
+==	Added P9687: Manel
+==	Added P9688: Esteller
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Manuel R Teixeira
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	Manually found match!: Manuel R. Teixeira
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Manuel R
+==	Added P9688: Teixeira
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Ragnhild A Lothe
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Manel Esteller
+==	No match! Incorrect given names: Rui Henrique
+==	No match! Incorrect given names: Manuel R. Teixeira
+==	Manually found match!: Ragnhild A. Lothe
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Ragnhild A
+==	Added P9688: Lothe
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           Updating author info in: Whole cell biosynthesis of a functional oligosaccharide, 2'-fucosyllactose, using engineered Escherichia coli (Q21246028)           
+                                                              Using database P698 with article ID 22545760                                                              
+                            Author given names: ['Won-Heong', 'Panchalee', 'Josh', 'Jung-Hyun', 'Nam Soo', 'Michael J', 'Yong-Su', 'Jin-Ho']                            
+                                     Author family names: ['Lee', 'Pathanibul', 'Quarterman', 'Jo', 'Han', 'Miller', 'Jin', 'Seo']                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Won-Heong Lee
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	Perfect match!: Won-Heong Lee
+== Adding qualifiers to author item...
+==	Added P9687: Won-Heong
+==	Added P9688: Lee
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Panchalee Pathanibul
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Won-Heong Lee
+==	Perfect match!: Panchalee Pathanibul
+== Adding qualifiers to author item...
+==	Added P9687: Panchalee
+==	Added P9688: Pathanibul
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Josh Quarterman
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Won-Heong Lee
+==	No match! Incorrect given names: Panchalee Pathanibul
+==	Perfect match!: Josh Quarterman
+== Adding qualifiers to author item...
+==	Added P9687: Josh
+==	Added P9688: Quarterman
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Jung-Hyun Jo
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Won-Heong Lee
+==	No match! Incorrect given names: Panchalee Pathanibul
+==	No match! Incorrect given names: Josh Quarterman
+==	Perfect match!: Jung-Hyun Jo
+== Adding qualifiers to author item...
+==	Added P9687: Jung-Hyun
+==	Added P9688: Jo
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Nam Soo Han
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Won-Heong Lee
+==	No match! Incorrect given names: Panchalee Pathanibul
+==	No match! Incorrect given names: Josh Quarterman
+==	No match! Incorrect given names: Jung-Hyun Jo
+==	Perfect match!: Nam Soo Han
+== Adding qualifiers to author item...
+==	Added P9687: Nam Soo
+==	Added P9688: Han
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Michael J Miller
+== Trying to find author in existing author items...
+==	Perfect match!: Michael J Miller
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Michael J
+==	Added P9688: Miller
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Yong-Su Jin
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Won-Heong Lee
+==	No match! Incorrect given names: Panchalee Pathanibul
+==	No match! Incorrect given names: Josh Quarterman
+==	No match! Incorrect given names: Jung-Hyun Jo
+==	No match! Incorrect given names: Nam Soo Han
+==	Perfect match!: Yong-Su Jin
+== Adding qualifiers to author item...
+==	Added P9687: Yong-Su
+==	Added P9688: Jin
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Jin-Ho Seo
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Michael J Miller
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Won-Heong Lee
+==	No match! Incorrect given names: Panchalee Pathanibul
+==	No match! Incorrect given names: Josh Quarterman
+==	No match! Incorrect given names: Jung-Hyun Jo
+==	No match! Incorrect given names: Nam Soo Han
+==	No match! Incorrect given names: Yong-Su Jin
+==	Perfect match!: Jin-Ho Seo
+== Adding qualifiers to author item...
+==	Added P9687: Jin-Ho
+==	Added P9688: Seo
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updating author info in: Comparative Multi-Epitope-Ligand-Cartography reveals essential immunological alterations in Barrett's metaplasia and esophageal adenocarcinoma (Q21245711)
+                                                              Using database P698 with article ID 20604962                                                              
+                          Author given names: ['Uta', 'Lars', 'Sebastian', 'Yuqin', 'Christoph', 'Wiedenmann', 'Marcus', 'Thomas', 'Andreas']                           
+                            Author family names: ['Berndt', 'Philipsen', 'Bartsch', 'Hu', 'Röcken', 'Bertram', 'Hämmerle', 'Rösch', 'Sturm']                            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Uta Berndt
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	Perfect match!: Uta Berndt
+== Adding qualifiers to author item...
+==	Added P9687: Uta
+==	Added P9688: Berndt
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Lars Philipsen
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	Perfect match!: Lars Philipsen
+== Adding qualifiers to author item...
+==	Added P9687: Lars
+==	Added P9688: Philipsen
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Sebastian Bartsch
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	No match! Incorrect given names: Lars Philipsen
+==	Perfect match!: Sebastian Bartsch
+== Adding qualifiers to author item...
+==	Added P9687: Sebastian
+==	Added P9688: Bartsch
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Yuqin Hu
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	No match! Incorrect given names: Lars Philipsen
+==	No match! Incorrect given names: Sebastian Bartsch
+==	Perfect match!: Yuqin Hu
+== Adding qualifiers to author item...
+==	Added P9687: Yuqin
+==	Added P9688: Hu
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Christoph Röcken
+== Trying to find author in existing author items...
+==	Perfect match!: Christoph Röcken
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Christoph
+==	Added P9688: Röcken
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Wiedenmann Bertram
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	No match! Incorrect given names: Lars Philipsen
+==	No match! Incorrect given names: Sebastian Bartsch
+==	No match! Incorrect given names: Yuqin Hu
+==	Perfect match!: Wiedenmann Bertram
+== Adding qualifiers to author item...
+==	Added P9687: Wiedenmann
+==	Added P9688: Bertram
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Marcus Hämmerle
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	No match! Incorrect given names: Lars Philipsen
+==	No match! Incorrect given names: Sebastian Bartsch
+==	No match! Incorrect given names: Yuqin Hu
+==	No match! Incorrect given names: Wiedenmann Bertram
+==	Perfect match!: Marcus Hämmerle
+== Adding qualifiers to author item...
+==	Added P9687: Marcus
+==	Added P9688: Hämmerle
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Thomas Rösch
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	No match! Incorrect given names: Lars Philipsen
+==	No match! Incorrect given names: Sebastian Bartsch
+==	No match! Incorrect given names: Yuqin Hu
+==	No match! Incorrect given names: Wiedenmann Bertram
+==	No match! Incorrect given names: Marcus Hämmerle
+==	Perfect match!: Thomas Rösch
+== Adding qualifiers to author item...
+==	Added P9687: Thomas
+==	Added P9688: Rösch
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Andreas Sturm
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Christoph Röcken
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Uta Berndt
+==	No match! Incorrect given names: Lars Philipsen
+==	No match! Incorrect given names: Sebastian Bartsch
+==	No match! Incorrect given names: Yuqin Hu
+==	No match! Incorrect given names: Wiedenmann Bertram
+==	No match! Incorrect given names: Marcus Hämmerle
+==	No match! Incorrect given names: Thomas Rösch
+==	Perfect match!: Andreas Sturm
+== Adding qualifiers to author item...
+==	Added P9687: Andreas
+==	Added P9688: Sturm
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+Proceed to next item page? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                            Updating author info in: Can urinary exosomes act as treatment response markers in prostate cancer? (Q21245467)                             
+                                                              Using database P698 with article ID 19138409                                                              
+                                    Author given names: ['Paul J', 'Joanne', 'John', 'Jacquelyn', 'Malcolm D', 'Zsuzsanna', 'Aled']                                     
+                                     Author family names: ['Mitchell', 'Welton', 'Staffurth', 'Court', 'Mason', 'Tabi', 'Clayton']                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Adding author: Paul J Mitchell
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Zsuzsanna Tabi
+== Trying to find author in existing author name string items...
+==	Perfect match!: Paul J Mitchell
+== Adding qualifiers to author item...
+==	Added P9687: Paul J
+==	Added P9688: Mitchell
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Joanne Welton
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Zsuzsanna Tabi
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Paul J Mitchell
+==	Perfect match!: Joanne Welton
+== Adding qualifiers to author item...
+==	Added P9687: Joanne
+==	Added P9688: Welton
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: John Staffurth
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Zsuzsanna Tabi
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Paul J Mitchell
+==	No match! Incorrect given names: Joanne Welton
+==	Perfect match!: John Staffurth
+== Adding qualifiers to author item...
+==	Added P9687: John
+==	Added P9688: Staffurth
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Jacquelyn Court
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Zsuzsanna Tabi
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Paul J Mitchell
+==	No match! Incorrect given names: Joanne Welton
+==	No match! Incorrect given names: John Staffurth
+==	Perfect match!: Jacquelyn Court
+== Adding qualifiers to author item...
+==	Added P9687: Jacquelyn
+==	Added P9688: Court
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Malcolm D Mason
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Zsuzsanna Tabi
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Paul J Mitchell
+==	No match! Incorrect given names: Joanne Welton
+==	No match! Incorrect given names: John Staffurth
+==	No match! Incorrect given names: Jacquelyn Court
+==	Perfect match!: Malcolm D Mason
+== Adding qualifiers to author item...
+==	Added P9687: Malcolm D
+==	Added P9688: Mason
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Zsuzsanna Tabi
+== Trying to find author in existing author items...
+==	Perfect match!: Zsuzsanna Tabi
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Zsuzsanna
+==	Added P9688: Tabi
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
+
+Adding author: Aled Clayton
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Zsuzsanna Tabi
+== Trying to find author in existing author name string items...
+==	No match! Incorrect given names: Paul J Mitchell
+==	No match! Incorrect given names: Joanne Welton
+==	No match! Incorrect given names: John Staffurth
+==	No match! Incorrect given names: Jacquelyn Court
+==	No match! Incorrect given names: Malcolm D Mason
+==	Perfect match!: Aled Clayton
+== Adding qualifiers to author item...
+==	Added P9687: Aled
+==	Added P9688: Clayton
+==	P1545 already in author item!
+== Adding references to author item...
+==	Successfully added reference to author item.
