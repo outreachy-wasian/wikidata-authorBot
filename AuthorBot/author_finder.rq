@@ -15,18 +15,18 @@ SELECT DISTINCT ?item WHERE {
   {
     ?item p:P50 ?author. #has an author
     MINUS {
-      ?author (p:P1932+) ?statedas; #with no object stated as value or
-        (p:P9687+) ?authorfirst; #no author first name or
-        (p:P9688+) ?authorlast. #no author last name
+      ?author (pq:P1932+) ?statedas; #with no object stated as value or
+        (pq:P9687+) ?authorfirst; #no author first name or
+        (pq:P9688+) ?authorlast. #no author last name
     }
   }
   UNION #or
   {
     ?item p:P2093 ?authorstring. #has an author name string
     MINUS {
-      ?authorstring (p:P9687+) ?authorfirst; #with no author first name or
-        (p:P9688+) ?authorlast. #no author last name
+      ?authorstring (pq:P9687+) ?authorfirst; #with no author first name or
+        (pq:P9688+) ?authorlast. #no author last name
     }
   }
 }
-LIMIT 50
+LIMIT 20

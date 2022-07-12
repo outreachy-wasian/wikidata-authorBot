@@ -33,10 +33,11 @@ def get_author_items():
         sparql = sparql_file.read()
         sparql = sparql[0:-1]
     generator = pagegenerators.WikidataSPARQLPageGenerator(sparql, site=wd)
-
+    i = 1
     for page in generator:
-            check_author_info(page)
-
+        print((f' {i} ').center(term_size, '='))
+        check_author_info(page)
+        i += 1
 
 def check_author_info(page):
     """
@@ -49,8 +50,6 @@ def check_author_info(page):
     :return: True if authors successfully added. False otherwise.
     """
     item = page.get()
-    print('-' * term_size)
-
     try:
         print(("Updating author info in: " +  item['labels']['en'] + " (" + page.title() + ")").center(term_size))
     except:
@@ -250,7 +249,7 @@ def print_author_info(authors):
     """
     print(('Author given names: ' +  str(authors[0])).center(term_size))
     print(('Author family names: ' + str(authors[1])).center(term_size))
-    print('-' * term_size)
+    print('=' * term_size)
 
 
 get_author_items()
