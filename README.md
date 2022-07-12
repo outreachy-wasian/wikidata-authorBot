@@ -26,7 +26,6 @@ If you want compatibility with a specific academic database, feel free to reques
 - Is able to both add author item statements and detect existing author information and add missing info to it, as well as detecting slight difference by checking aliases and acronyms.
 
 # Things to improve/Future features:
-- Redundancy: manually has to check over all author items even when some of the author items have already been updated. Would be much faster to specific authors as already added to allow for much faster proceeding.
 - One-by-one API extraction: Unable to get a 'batch' set of author citations, which would reduce author calls considerably
 - Author name string default: Currently, if an author is not already on the Wikidata page, they are added an as author name string property as there is no clear way to definitively find a P50 page that corresponds to a citation's author through just their name. In the future, could be possible to extract ORCID IDs from the article.
 
