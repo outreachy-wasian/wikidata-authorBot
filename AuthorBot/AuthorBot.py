@@ -140,6 +140,8 @@ def add_authors(page, item, authors, art_id, db):
     :return: True if authors added successfully.
     """
 
+    added_authors = []
+
     #FIXME: Inefficient. Would be good to skip over authors whose information was already added.
     for i, given_name in enumerate(authors[0]):
 
@@ -153,26 +155,30 @@ def add_authors(page, item, authors, art_id, db):
         if 'P50' in item['claims']:
             print('== Trying to find author in existing author items...')
             for au in item['claims']['P50']:
-                p50_page = au.getTarget()
-                author = ncheck.check_name(p50_page, given_name, family_name, full_name)
-                if author:
-                   print('== Adding qualifiers to author item...')
-                   add_qualifier(au, full_name, u'P1932')
-                   add_author_qualifiers(au, given_name, family_name, i)
-                   add_reference(au, db, art_id)
-                   break
+                p50_name = au.getTarget().get()['labels']['en']
+                if p50_name not in added_authors:
+                    author = ncheck.check_name(p50_name, given_name, family_name, full_name)
+                    if author:
+                        print('== Adding qualifiers to author item...')
+                        added_authors.append(p50_name)
+                        add_qualifier(au, full_name, u'P1932')
+                        add_author_qualifiers(au, given_name, family_name, i)
+                        add_reference(au, db, art_id)
+                        break
 
         #search in author name string items
         if 'P2093' in item['claims'] and not author:
             print('== Trying to find author in existing author name string items...')
             for au in item['claims']['P2093']:
                 p2093_page = au.getTarget()
-                author = ncheck.check_name(p2093_page, given_name, family_name, full_name)
-                if author:
-                   print('== Adding qualifiers to author item...')
-                   add_author_qualifiers(au, given_name, family_name, i)
-                   add_reference(au, db, art_id)
-                   break
+                if p2093_page not in added_authors:
+                    author = ncheck.check_name(p2093_page, given_name, family_name, full_name)
+                    if author:
+                        added_authors.append(p2093_page)
+                        print('== Adding qualifiers to author item...')
+                        add_author_qualifiers(au, given_name, family_name, i)
+                        add_reference(au, db, art_id)
+                        break
 
         #if not existing author
         #TODO: Automatically find existing author pages via ORCID API.
@@ -227,19 +233,26 @@ def add_reference(author, db, art_id):
     :param art_id (string): item article ID.
     """
     print('== Adding references...')
-    stated_in = pywikibot.Claim(wd, u'P248')
-    stated_in.setTarget(db_list[db])
-    db_ref = pywikibot.Claim(wd, u''+ db)
-    db_ref.setTarget(art_id)
-    retrieved = pywikibot.Claim(wd, u'P813', is_reference=True)
-    today = date.today()
-    pwb_date = pywikibot.WbTime(year=int(today.strftime("%Y")), month=int(today.strftime("%m")), day=int(today.strftime("%d")))
-    retrieved.setTarget(pwb_date)
     try:
-        author.addSources([stated_in, db_ref, retrieved])
-        print('==\tSuccessfully added reference to author item.')
+        sources = author.getSources()[0]
     except:
-        print('==\tAuthor information already has reference!')
+        sources = []
+    if db_list[db] not in sources and db not in sources:
+        stated_in = pywikibot.Claim(wd, u'P248')
+        stated_in.setTarget(db_list[db])
+        db_ref = pywikibot.Claim(wd, u''+ db)
+        db_ref.setTarget(art_id)
+        retrieved = pywikibot.Claim(wd, u'P813', is_reference=True)
+        today = date.today()
+        pwb_date = pywikibot.WbTime(year=int(today.strftime("%Y")), month=int(today.strftime("%m")), day=int(today.strftime("%d")))
+        retrieved.setTarget(pwb_date)
+        try:
+            author.addSources([stated_in, db_ref, retrieved])
+            print('==\tSuccessfully added reference to author item.')
+        except:
+            print('==\tAuthor information already has reference!')
+    else:
+        print('==\tAuthor information already referenced with corresponding database!')
 
 def print_author_info(authors):
     """
@@ -251,5 +264,6 @@ def print_author_info(authors):
     print(('Author family names: ' + str(authors[1])).center(term_size))
     print('=' * term_size)
 
-
-get_author_items()
+test = pywikibot.ItemPage(wd, 'Q21202820')
+check_author_info(test)
+#get_author_items()

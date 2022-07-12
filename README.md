@@ -12,6 +12,8 @@ In the future, I aim to make AuthorBot compatible with the following academic da
 - PCMID
 - arXiV
 
+If you want compatibility with a specific academic database, feel free to request it! Write a message on the PangolinBot or PangolinMexico User page.
+
 # Features:
 - Gets articles on Wikidata that are missing author information and are cited in a compatible database. This includes:
 1. Scientific papers (items where P31 = Q13442814) with no P50 or no P2093 statements
@@ -24,6 +26,9 @@ In the future, I aim to make AuthorBot compatible with the following academic da
 - Is able to both add author item statements and detect existing author information and add missing info to it, as well as detecting slight difference by checking aliases and acronyms.
 
 # Things to improve/Future features:
-- Redundancy: manually has to check over all author items even when some of the author items have already been updated --- mark specific items as 'updated' to allow for quick moving on 
+- Redundancy: manually has to check over all author items even when some of the author items have already been updated. Would be much faster to specific authors as already added to allow for much faster proceeding.
 - One-by-one API extraction: Unable to get a 'batch' set of author citations, which would reduce author calls considerably
 - Author name string default: Currently, if an author is not already on the Wikidata page, they are added an as author name string property as there is no clear way to definitively find a P50 page that corresponds to a citation's author through just their name. In the future, could be possible to extract ORCID IDs from the article.
+
+#Note:
+- If for some reason you want to try running this script yourself, you will need your own API keys for Pubmed, ADS, and Dimensions. Mine are kept private for hopefully obvious reasons.

@@ -4,12 +4,9 @@ Checks whether two given names are a match.
 
 import re
 import pywikibot
-
+from unidecode import unidecode
 #connect to wikidata
-wd_connect = pywikibot.Site('wikidata', 'wikidata')
-wd = wd_connect.data_repository()
-
-def check_name(author_item, given_name, family_name, full_name):
+def check_name(author_name, given_name, family_name, full_name):
     """
     Checks if an author or author name string item are a match
     :param author_item (Pywikibot.ItemPage or string): author to check against
@@ -20,12 +17,7 @@ def check_name(author_item, given_name, family_name, full_name):
     :return: the author item if match found, False otherwise
     """
     try:
-        author = author_item.get()
-        author_name = author['labels']['en']
-    except:
-        author_name = author_item
-    try:
-        author_aliases = author['aliases']['en']
+        author_aliases = author_name['aliases']['en']
     except:
         author_aliases = []
 
@@ -49,10 +41,17 @@ def check_name(author_item, given_name, family_name, full_name):
         #or, if first given name is an acronym, initials are the same
         or  (   len(s_given_name[0]) == 1
              and s_given_name[0] == s_author_name[0][:1])
+        or  (   unidecode(s_given_name[0]) == unidecode(s_author_name[0]))
        ):
         #and last names are the same 
         #(checking for possible eliminations in double-barrelled names)
-        if any(n in author_name for n in s_family_name):
+        uni_author_name = unidecode(author_name)
+        uni_s_family_name = []
+        for n in s_family_name:
+            uni_s_family_name.append(unidecode(n))
+        if (any(n in author_name for n in s_family_name)
+            or (n in uni_author_name for uni in uni_s_family_name)
+           ):
             #and, if relevant, middle initials are the same
             #if there is a middle name
             if len(s_given_name) > 1:
