@@ -71,7 +71,7 @@ NameChecker    </h1>
 </span><span id="L-8"><a href="#L-8"><span class="linenos"> 8</span></a><span class="c1">#connect to wikidata</span>
 </span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a><span class="k">def</span> <span class="nf">check_name</span><span class="p">(</span><span class="n">author_name</span><span class="p">,</span> <span class="n">given_name</span><span class="p">,</span> <span class="n">family_name</span><span class="p">,</span> <span class="n">full_name</span><span class="p">):</span>
 </span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a>    <span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a><span class="sd">    Checks if an author or author name string item are a match</span>
+</span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a><span class="sd">    Checks if an author or author name string item are a match.</span>
 </span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a><span class="sd">    :param author_item (Pywikibot.ItemPage or string): author to check against</span>
 </span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a><span class="sd">    :param given_name (string): author given name</span>
 </span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a><span class="sd">    :param family_name (string): author family name</span>
@@ -109,12 +109,12 @@ NameChecker    </h1>
 </span><span id="L-46"><a href="#L-46"><span class="linenos">46</span></a>       <span class="p">):</span>
 </span><span id="L-47"><a href="#L-47"><span class="linenos">47</span></a>        <span class="c1">#and last names are the same </span>
 </span><span id="L-48"><a href="#L-48"><span class="linenos">48</span></a>        <span class="c1">#(checking for possible eliminations in double-barrelled names)</span>
-</span><span id="L-49"><a href="#L-49"><span class="linenos">49</span></a>        <span class="n">uni_author_name</span> <span class="o">=</span> <span class="n">unidecode</span><span class="p">(</span><span class="n">author_name</span><span class="p">)</span>
+</span><span id="L-49"><a href="#L-49"><span class="linenos">49</span></a>        <span class="n">uni_author_name</span> <span class="o">=</span> <span class="n">unidecode</span><span class="p">(</span><span class="n">author_name</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
 </span><span id="L-50"><a href="#L-50"><span class="linenos">50</span></a>        <span class="n">uni_s_family_name</span> <span class="o">=</span> <span class="p">[]</span>
 </span><span id="L-51"><a href="#L-51"><span class="linenos">51</span></a>        <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">s_family_name</span><span class="p">:</span>
 </span><span id="L-52"><a href="#L-52"><span class="linenos">52</span></a>            <span class="n">uni_s_family_name</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">unidecode</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
-</span><span id="L-53"><a href="#L-53"><span class="linenos">53</span></a>        <span class="k">if</span> <span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">author_name</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">s_family_name</span><span class="p">)</span>
-</span><span id="L-54"><a href="#L-54"><span class="linenos">54</span></a>            <span class="ow">or</span> <span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">uni_author_name</span> <span class="k">for</span> <span class="n">uni</span> <span class="ow">in</span> <span class="n">uni_s_family_name</span><span class="p">)</span>
+</span><span id="L-53"><a href="#L-53"><span class="linenos">53</span></a>        <span class="k">if</span> <span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">author_name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">s_family_name</span><span class="p">)</span>
+</span><span id="L-54"><a href="#L-54"><span class="linenos">54</span></a>            <span class="ow">or</span> <span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">uni_author_name</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">uni_s_family_name</span><span class="p">))</span>
 </span><span id="L-55"><a href="#L-55"><span class="linenos">55</span></a>           <span class="p">):</span>
 </span><span id="L-56"><a href="#L-56"><span class="linenos">56</span></a>            <span class="c1">#and, if relevant, middle initials are the same</span>
 </span><span id="L-57"><a href="#L-57"><span class="linenos">57</span></a>            <span class="c1">#if there is a middle name</span>
@@ -125,7 +125,7 @@ NameChecker    </h1>
 </span><span id="L-62"><a href="#L-62"><span class="linenos">62</span></a>                    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">No match! Incorrect middle initial: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
 </span><span id="L-63"><a href="#L-63"><span class="linenos">63</span></a>                    <span class="k">return</span> <span class="kc">False</span>
 </span><span id="L-64"><a href="#L-64"><span class="linenos">64</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">Manually found match!: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
-</span><span id="L-65"><a href="#L-65"><span class="linenos">65</span></a>            <span class="k">return</span> <span class="kc">True</span>
+</span><span id="L-65"><a href="#L-65"><span class="linenos">65</span></a>            <span class="k">return</span> <span class="n">author_name</span>
 </span><span id="L-66"><a href="#L-66"><span class="linenos">66</span></a>        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">No match! Incorrect surnames: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
 </span><span id="L-67"><a href="#L-67"><span class="linenos">67</span></a>        <span class="k">return</span> <span class="kc">False</span>
 </span><span id="L-68"><a href="#L-68"><span class="linenos">68</span></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">No match! Incorrect given names: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
@@ -135,7 +135,7 @@ NameChecker    </h1>
 </span><span id="L-72"><a href="#L-72"><span class="linenos">72</span></a>    <span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-73"><a href="#L-73"><span class="linenos">73</span></a><span class="sd">    Checks if an author name has a middle initial</span>
 </span><span id="L-74"><a href="#L-74"><span class="linenos">74</span></a><span class="sd">    :param author_name (list): author name split</span>
-</span><span id="L-75"><a href="#L-75"><span class="linenos">75</span></a><span class="sd">    :return the initial if exists, false otherwise</span>
+</span><span id="L-75"><a href="#L-75"><span class="linenos">75</span></a><span class="sd">    :return: the initial if exists, false otherwise</span>
 </span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-77"><a href="#L-77"><span class="linenos">77</span></a>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">author_name</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">author_name</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
 </span><span id="L-78"><a href="#L-78"><span class="linenos">78</span></a>            <span class="k">return</span> <span class="n">author_name</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -157,7 +157,7 @@ NameChecker    </h1>
     <a class="headerlink" href="#check_name"></a>
             <div class="pdoc-code codehilite"><pre><span></span><span id="check_name-10"><a href="#check_name-10"><span class="linenos">10</span></a><span class="k">def</span> <span class="nf">check_name</span><span class="p">(</span><span class="n">author_name</span><span class="p">,</span> <span class="n">given_name</span><span class="p">,</span> <span class="n">family_name</span><span class="p">,</span> <span class="n">full_name</span><span class="p">):</span>
 </span><span id="check_name-11"><a href="#check_name-11"><span class="linenos">11</span></a>    <span class="sd">&quot;&quot;&quot;</span>
-</span><span id="check_name-12"><a href="#check_name-12"><span class="linenos">12</span></a><span class="sd">    Checks if an author or author name string item are a match</span>
+</span><span id="check_name-12"><a href="#check_name-12"><span class="linenos">12</span></a><span class="sd">    Checks if an author or author name string item are a match.</span>
 </span><span id="check_name-13"><a href="#check_name-13"><span class="linenos">13</span></a><span class="sd">    :param author_item (Pywikibot.ItemPage or string): author to check against</span>
 </span><span id="check_name-14"><a href="#check_name-14"><span class="linenos">14</span></a><span class="sd">    :param given_name (string): author given name</span>
 </span><span id="check_name-15"><a href="#check_name-15"><span class="linenos">15</span></a><span class="sd">    :param family_name (string): author family name</span>
@@ -195,12 +195,12 @@ NameChecker    </h1>
 </span><span id="check_name-47"><a href="#check_name-47"><span class="linenos">47</span></a>       <span class="p">):</span>
 </span><span id="check_name-48"><a href="#check_name-48"><span class="linenos">48</span></a>        <span class="c1">#and last names are the same </span>
 </span><span id="check_name-49"><a href="#check_name-49"><span class="linenos">49</span></a>        <span class="c1">#(checking for possible eliminations in double-barrelled names)</span>
-</span><span id="check_name-50"><a href="#check_name-50"><span class="linenos">50</span></a>        <span class="n">uni_author_name</span> <span class="o">=</span> <span class="n">unidecode</span><span class="p">(</span><span class="n">author_name</span><span class="p">)</span>
+</span><span id="check_name-50"><a href="#check_name-50"><span class="linenos">50</span></a>        <span class="n">uni_author_name</span> <span class="o">=</span> <span class="n">unidecode</span><span class="p">(</span><span class="n">author_name</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
 </span><span id="check_name-51"><a href="#check_name-51"><span class="linenos">51</span></a>        <span class="n">uni_s_family_name</span> <span class="o">=</span> <span class="p">[]</span>
 </span><span id="check_name-52"><a href="#check_name-52"><span class="linenos">52</span></a>        <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">s_family_name</span><span class="p">:</span>
 </span><span id="check_name-53"><a href="#check_name-53"><span class="linenos">53</span></a>            <span class="n">uni_s_family_name</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">unidecode</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
-</span><span id="check_name-54"><a href="#check_name-54"><span class="linenos">54</span></a>        <span class="k">if</span> <span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">author_name</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">s_family_name</span><span class="p">)</span>
-</span><span id="check_name-55"><a href="#check_name-55"><span class="linenos">55</span></a>            <span class="ow">or</span> <span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">uni_author_name</span> <span class="k">for</span> <span class="n">uni</span> <span class="ow">in</span> <span class="n">uni_s_family_name</span><span class="p">)</span>
+</span><span id="check_name-54"><a href="#check_name-54"><span class="linenos">54</span></a>        <span class="k">if</span> <span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">author_name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">s_family_name</span><span class="p">)</span>
+</span><span id="check_name-55"><a href="#check_name-55"><span class="linenos">55</span></a>            <span class="ow">or</span> <span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">n</span> <span class="ow">in</span> <span class="n">uni_author_name</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">uni_s_family_name</span><span class="p">))</span>
 </span><span id="check_name-56"><a href="#check_name-56"><span class="linenos">56</span></a>           <span class="p">):</span>
 </span><span id="check_name-57"><a href="#check_name-57"><span class="linenos">57</span></a>            <span class="c1">#and, if relevant, middle initials are the same</span>
 </span><span id="check_name-58"><a href="#check_name-58"><span class="linenos">58</span></a>            <span class="c1">#if there is a middle name</span>
@@ -211,7 +211,7 @@ NameChecker    </h1>
 </span><span id="check_name-63"><a href="#check_name-63"><span class="linenos">63</span></a>                    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">No match! Incorrect middle initial: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
 </span><span id="check_name-64"><a href="#check_name-64"><span class="linenos">64</span></a>                    <span class="k">return</span> <span class="kc">False</span>
 </span><span id="check_name-65"><a href="#check_name-65"><span class="linenos">65</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">Manually found match!: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
-</span><span id="check_name-66"><a href="#check_name-66"><span class="linenos">66</span></a>            <span class="k">return</span> <span class="kc">True</span>
+</span><span id="check_name-66"><a href="#check_name-66"><span class="linenos">66</span></a>            <span class="k">return</span> <span class="n">author_name</span>
 </span><span id="check_name-67"><a href="#check_name-67"><span class="linenos">67</span></a>        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">No match! Incorrect surnames: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
 </span><span id="check_name-68"><a href="#check_name-68"><span class="linenos">68</span></a>        <span class="k">return</span> <span class="kc">False</span>
 </span><span id="check_name-69"><a href="#check_name-69"><span class="linenos">69</span></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;==</span><span class="se">\t</span><span class="s1">No match! Incorrect given names: &#39;</span> <span class="o">+</span> <span class="n">author_name</span><span class="p">)</span>
@@ -219,7 +219,7 @@ NameChecker    </h1>
 </span></pre></div>
 
 
-            <div class="docstring"><p>Checks if an author or author name string item are a match</p>
+            <div class="docstring"><p>Checks if an author or author name string item are a match.</p>
 
 <h6 id="parameters">Parameters</h6>
 
@@ -254,7 +254,7 @@ NameChecker    </h1>
 </span><span id="get_middle_initial-73"><a href="#get_middle_initial-73"><span class="linenos">73</span></a>    <span class="sd">&quot;&quot;&quot;</span>
 </span><span id="get_middle_initial-74"><a href="#get_middle_initial-74"><span class="linenos">74</span></a><span class="sd">    Checks if an author name has a middle initial</span>
 </span><span id="get_middle_initial-75"><a href="#get_middle_initial-75"><span class="linenos">75</span></a><span class="sd">    :param author_name (list): author name split</span>
-</span><span id="get_middle_initial-76"><a href="#get_middle_initial-76"><span class="linenos">76</span></a><span class="sd">    :return the initial if exists, false otherwise</span>
+</span><span id="get_middle_initial-76"><a href="#get_middle_initial-76"><span class="linenos">76</span></a><span class="sd">    :return: the initial if exists, false otherwise</span>
 </span><span id="get_middle_initial-77"><a href="#get_middle_initial-77"><span class="linenos">77</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="get_middle_initial-78"><a href="#get_middle_initial-78"><span class="linenos">78</span></a>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">author_name</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">author_name</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
 </span><span id="get_middle_initial-79"><a href="#get_middle_initial-79"><span class="linenos">79</span></a>            <span class="k">return</span> <span class="n">author_name</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -267,9 +267,14 @@ NameChecker    </h1>
 <h6 id="parameters">Parameters</h6>
 
 <ul>
-<li><strong>author_name (list)</strong>:  author name split
-:return the initial if exists, false otherwise</li>
+<li><strong>author_name (list)</strong>:  author name split</li>
 </ul>
+
+<h6 id="returns">Returns</h6>
+
+<blockquote>
+  <p>the initial if exists, false otherwise</p>
+</blockquote>
 </div>
 
 

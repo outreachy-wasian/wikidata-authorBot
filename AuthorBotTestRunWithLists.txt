@@ -1,0 +1,309 @@
+[roberto@pangolin AuthorBot]$ python ../../../../../sources/core/pwb.py AuthorBot.py
+================================================================================== 1 ===================================================================================
+Updating author info in: Diagnosis of Plasmodium falciparum Malaria at Delivery: Comparison of Blood Film Preparation Methods and of Blood Films with Histology (Q15295131)
+                                                              Using database P698 with article ID 12682116                                                              
+                                                       Author given names: ['Stephen J', 'Patrick', 'Maxwell K']                                                        
+                                                        Author family names: ['Rogerson', 'Mkundika', 'Kanjala']                                                        
+========================================================================================================================================================================
+
+Adding author: Stephen J Rogerson
+== Trying to find author in existing author items...
+==	Manually found match!: Stephen J. Rogerson
+== Adding qualifiers to author item...
+==	Added P1932: Stephen J Rogerson
+==	Added P9687: Stephen J
+==	Added P9688: Rogerson
+==	Added P1545: 1
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Patrick Mkundika
+== Trying to find author in existing author items...
+==	Perfect match!: Patrick Mkundika
+== Adding qualifiers to author item...
+==	Added P1932: Patrick Mkundika
+==	Added P9687: Patrick
+==	Added P9688: Mkundika
+==	Added P1545: 2
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Maxwell K Kanjala
+== Trying to find author in existing author items...
+==	Manually found match!: Maxwell K. Kanjala
+== Adding qualifiers to author item...
+==	Added P1932: Maxwell K Kanjala
+==	Added P9687: Maxwell K
+==	Added P9688: Kanjala
+==	Added P1545: 3
+== Adding references...
+==	Successfully added reference to author item.
+================================================================================== 2 ===================================================================================
+            Updating author info in: Understanding the population genetics of Plasmodium vivax is essential for malaria control and elimination (Q17485678)             
+                                                              Using database P698 with article ID 22233585                                                              
+                                                          Author given names: ['Alicia', 'Alyssa E', 'John C']                                                          
+                                                           Author family names: ['Arnott', 'Barry', 'Reeder']                                                           
+========================================================================================================================================================================
+
+Adding author: Alicia Arnott
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: John C Reeder
+==	Perfect match!: Alicia Arnott
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Alicia
+==	Added P9688: Arnott
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Alyssa E Barry
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: John C Reeder
+== Trying to find author in existing author name string items...
+==	Perfect match!: Alyssa E Barry
+== Adding qualifiers to author item...
+==	Added P9687: Alyssa E
+==	Added P9688: Barry
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: John C Reeder
+== Trying to find author in existing author items...
+==	Perfect match!: John C Reeder
+== Adding qualifiers to author item...
+==	Added P1932: John C Reeder
+==	Added P9687: John C
+==	Added P9688: Reeder
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+================================================================================== 3 ===================================================================================
+                                            Updating author info in: Adductor tenotomy in spastic cerebral palsy (Q15636267)                                            
+                                                              Using database P698 with article ID 15788321                                                              
+                                                      Author given names: ['Terje', 'Gro D', 'Asne A', 'Andreas']                                                       
+                                                      Author family names: ['Terjesen', 'Lie', 'Hyldmo', 'Knaus']                                                       
+========================================================================================================================================================================
+
+Adding author: Terje Terjesen
+== Trying to find author in existing author name string items...
+==	Perfect match!: Terje Terjesen
+== Adding qualifiers to author item...
+==	Added P9687: Terje
+==	Added P9688: Terjesen
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Gro D Lie
+== Trying to find author in existing author name string items...
+==	Perfect match!: Gro D Lie
+== Adding qualifiers to author item...
+==	Added P9687: Gro D
+==	Added P9688: Lie
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Asne A Hyldmo
+== Trying to find author in existing author name string items...
+==	Manually found match!: Åsne A Hyldmo
+== Adding qualifiers to author item...
+==	Added P9687: Asne A
+==	Added P9688: Hyldmo
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Andreas Knaus
+== Trying to find author in existing author name string items...
+==	Perfect match!: Andreas Knaus
+== Adding qualifiers to author item...
+==	Added P9687: Andreas
+==	Added P9688: Knaus
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+================================================================================== 4 ===================================================================================
+                                 Updating author info in: Open flexor tenotomy for hammer toes and curly toes in childhood (Q15636268)                                  
+                                                              Using database P698 with article ID 6501376                                                               
+                                                                   Author given names: ['E R', 'M B']                                                                   
+                                                               Author family names: ['Ross', 'Menelaus']                                                                
+========================================================================================================================================================================
+
+Adding author: E R Ross
+== Trying to find author in existing author name string items...
+==	Perfect match!: E R Ross
+== Adding qualifiers to author item...
+==	Added P9687: E R
+==	Added P9688: Ross
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: M B Menelaus
+== Trying to find author in existing author name string items...
+==	Perfect match!: M B Menelaus
+== Adding qualifiers to author item...
+==	Added P9687: M B
+==	Added P9688: Menelaus
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+================================================================================== 5 ===================================================================================
+                               Updating author info in: Hominin footprints from early Pleistocene deposits at Happisburgh, UK (Q15726132)                               
+                                                              Using database P698 with article ID 24516637                                                              
+              Author given names: ['Nick', 'Simon G', 'Isabelle', 'Sarah M', 'Martin', 'Richard', 'Peter', 'Mark', 'Simon A', 'Sylvia', 'Craig', 'Chris']               
+            Author family names: ['Ashton', 'Lewis', 'De Groote', 'Duffy', 'Bates', 'Bates', 'Hoare', 'Lewis', 'Parfitt', 'Peglar', 'Williams', 'Stringer']             
+========================================================================================================================================================================
+
+Adding author: Nick Ashton
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+==	Perfect match!: Nick Ashton
+== Adding qualifiers to author item...
+==	P1932 already in author item!
+==	Added P9687: Nick
+==	Added P9688: Ashton
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Simon G Lewis
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Simon G Lewis
+== Adding qualifiers to author item...
+==	Added P9687: Simon G
+==	Added P9688: Lewis
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Isabelle De Groote
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Isabelle De Groote
+== Adding qualifiers to author item...
+==	Added P9687: Isabelle
+==	Added P9688: De Groote
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Sarah M Duffy
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Sarah M Duffy
+== Adding qualifiers to author item...
+==	Added P9687: Sarah M
+==	Added P9688: Duffy
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Martin Bates
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Martin Bates
+== Adding qualifiers to author item...
+==	Added P9687: Martin
+==	Added P9688: Bates
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Richard Bates
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Richard Bates
+== Adding qualifiers to author item...
+==	Added P9687: Richard
+==	Added P9688: Bates
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Peter Hoare
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Peter Hoare
+== Adding qualifiers to author item...
+==	Added P9687: Peter
+==	Added P9688: Hoare
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Mark Lewis
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Mark Lewis
+== Adding qualifiers to author item...
+==	Added P9687: Mark
+==	Added P9688: Lewis
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Simon A Parfitt
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Simon A Parfitt
+== Adding qualifiers to author item...
+==	Added P9687: Simon A
+==	Added P9688: Parfitt
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Sylvia Peglar
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Sylvia Peglar
+== Adding qualifiers to author item...
+==	Added P9687: Sylvia
+==	Added P9688: Peglar
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Craig Williams
+== Trying to find author in existing author items...
+==	No match! Incorrect given names: Chris Stringer
+== Trying to find author in existing author name string items...
+==	Perfect match!: Craig Williams
+== Adding qualifiers to author item...
+==	Added P9687: Craig
+==	Added P9688: Williams
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+
+Adding author: Chris Stringer
+== Trying to find author in existing author items...
+==	Perfect match!: Chris Stringer
+== Adding qualifiers to author item...
+==	Added P1932: Chris Stringer
+==	Added P9687: Chris
+==	Added P9688: Stringer
+==	P1545 already in author item!
+== Adding references...
+==	Successfully added reference to author item.
+=========================================================================== Check these out! ===========================================================================
+Manual Finds:
+== Manually found Stephen J. Rogerson in article: Q15295131
+== Manually found Maxwell K. Kanjala in article: Q15295131
+== Manually found Åsne A Hyldmo in article: Q15636267
+
+Added Authors:
