@@ -6,11 +6,12 @@ AuthorBot adds missing author information to scientific article pages on Wikidat
 - Pubmed (Pubmed ID = [P698](https://www.wikidata.org/wiki/Property:P698), Pubmed = [Q180686](https://www.wikidata.org/wiki/Q180686))
 - Dimensions Publications (Dimensions ID = [P6179](https://www.wikidata.org/wiki/Property:P6179), Dimensions Publications = [Q95044734](https://www.wikidata.org/wiki/Q95044734))
 - Astrophysics Database Service (ADS ID = [P819](https://www.wikidata.org/wiki/Property:P819), ADS = [Q752099](https://www.wikidata.org/wiki/Q752099))
+- Pubmed Central (PCMID = [P932](https://www.wikidata.org/wiki/Property:P932), Pubmed Central = [Q229883](https://www.wikidata.org/wiki/Q229883))
 
 In the future, I aim to make AuthorBot compatible with the following academic databases:
 - CJFD
-- PCMID
 - arXiV
+- JSTOR
 
 If you want compatibility with a specific academic database, feel free to request it! Write a message on the PangolinBot or PangolinMexico User page.
 
@@ -23,7 +24,7 @@ If you want compatibility with a specific academic database, feel free to reques
   - no author last name (P9688) qualifier
 - Extracts citations using database APIs for the aforementioned compatible databases
 - Adds the aforementioned properties to scientific paper items on Wikidata. 
-- Is able to both add author item statements and detect existing author information and add missing info to it, as well as detecting slight difference by checking aliases and acronyms.
+- Is able to both add author item statements and detect existing author information and add missing info to it, as well as detecting small differences by checking aliases and acronyms.
 
 # Things to improve/Future features:
 - One-by-one API extraction: Unable to get a 'batch' set of author citations, which would reduce author calls considerably

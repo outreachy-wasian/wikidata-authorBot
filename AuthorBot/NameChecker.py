@@ -8,7 +8,7 @@ from unidecode import unidecode
 #connect to wikidata
 def check_name(author_name, given_name, family_name, full_name):
     """
-    Checks if an author or author name string item are a match
+    Checks if an author or author name string item are a match.
     :param author_item (Pywikibot.ItemPage or string): author to check against
     :param given_name (string): author given name
     :param family_name (string): author family name
@@ -32,25 +32,26 @@ def check_name(author_name, given_name, family_name, full_name):
             return True
 
     #remove non-alphabet characters to simplify finding matches
-    s_given_name = re.split('\W+', given_name)
-    s_family_name = re.split('\W+', family_name)
-    s_author_name = re.split('\W+', author_name)
+    s_given_name = re.split('\W+', given_name.lower())
+    s_family_name = re.split('\W+', family_name.lower())
+    s_author_name = re.split('\W+', author_name.lower())
 
     #if first given names are the same
     if (    s_given_name[0] == s_author_name[0]
         #or, if first given name is an acronym, initials are the same
         or  (   len(s_given_name[0]) == 1
              and s_given_name[0] == s_author_name[0][:1])
+        or  (   s_given_name[0] == s_author_name[0] + s_author_name[1]  )
         or  (   unidecode(s_given_name[0]) == unidecode(s_author_name[0]))
        ):
         #and last names are the same 
         #(checking for possible eliminations in double-barrelled names)
-        uni_author_name = unidecode(author_name)
+        uni_author_name = unidecode(author_name.lower())
         uni_s_family_name = []
         for n in s_family_name:
             uni_s_family_name.append(unidecode(n))
-        if (any(n in author_name for n in s_family_name)
-            or (n in uni_author_name for uni in uni_s_family_name)
+        if (any(n in author_name.lower() for n in s_family_name)
+            or (any(n in uni_author_name for n in uni_s_family_name))
            ):
             #and, if relevant, middle initials are the same
             #if there is a middle name
@@ -61,7 +62,7 @@ def check_name(author_name, given_name, family_name, full_name):
                     print('==\tNo match! Incorrect middle initial: ' + author_name)
                     return False
             print('==\tManually found match!: ' + author_name)
-            return True
+            return author_name
         print('==\tNo match! Incorrect surnames: ' + author_name)
         return False
     print('==\tNo match! Incorrect given names: ' + author_name)
@@ -71,7 +72,7 @@ def get_middle_initial(author_name):
     """
     Checks if an author name has a middle initial
     :param author_name (list): author name split
-    :return the initial if exists, false otherwise
+    :return: the initial if exists, false otherwise
     """
     if len(author_name) > 2 and len(author_name[1]) == 1:
             return author_name[1]

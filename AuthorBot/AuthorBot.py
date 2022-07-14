@@ -18,11 +18,15 @@ wd = wd_connect.data_repository()
 
 #get database pages for referencing
 pubmed = pywikibot.ItemPage(wd, 'Q180686')
+pmcid = pywikibot.ItemPage(wd, 'Q229883')
 dimensions = pywikibot.ItemPage(wd, 'Q95044734')
 ads = pywikibot.ItemPage(wd, 'Q752099')
 
 #dictionary where key is compatible database ID and value is database page value for references
-db_list = {'P698': pubmed, 'P6179': dimensions, 'P819': ads}
+db_list = {'P698': pubmed, 'P932': pmcid, 'P6179': dimensions, 'P819': ads}
+
+manual_finds = []
+added_authors = []
 
 def get_author_items():
     """
@@ -114,7 +118,7 @@ def find_database(item):
 
     :param item (dictionary): Wikidata dictionary which contains property information.
 
-    :return (s, art_id) (tuple): where s is a compatible database and art_id is the article's ID in said database.
+    :return: (s, art_id) (tuple): where s is a compatible database and art_id is the article's ID in said database.
     """
     for db in db_list:
         if db in item['claims']:
@@ -140,7 +144,7 @@ def add_authors(page, item, authors, art_id, db):
     :return: True if authors added successfully.
     """
 
-    added_authors = []
+    updated_authors = []
 
     #FIXME: Inefficient. Would be good to skip over authors whose information was already added.
     for i, given_name in enumerate(authors[0]):
@@ -156,11 +160,13 @@ def add_authors(page, item, authors, art_id, db):
             print('== Trying to find author in existing author items...')
             for au in item['claims']['P50']:
                 p50_name = au.getTarget().get()['labels']['en']
-                if p50_name not in added_authors:
+                if p50_name not in updated_authors:
                     author = ncheck.check_name(p50_name, given_name, family_name, full_name)
                     if author:
+                        updated_authors.append(p50_name)
+                        if isinstance(author, str):
+                            manual_finds.append((p50_name, page.title()))
                         print('== Adding qualifiers to author item...')
-                        added_authors.append(p50_name)
                         add_qualifier(au, full_name, u'P1932')
                         add_author_qualifiers(au, given_name, family_name, i)
                         add_reference(au, db, art_id)
@@ -170,11 +176,13 @@ def add_authors(page, item, authors, art_id, db):
         if 'P2093' in item['claims'] and not author:
             print('== Trying to find author in existing author name string items...')
             for au in item['claims']['P2093']:
-                p2093_page = au.getTarget()
-                if p2093_page not in added_authors:
-                    author = ncheck.check_name(p2093_page, given_name, family_name, full_name)
+                p2093_name = au.getTarget()
+                if p2093_name not in updated_authors:
+                    author = ncheck.check_name(p2093_name, given_name, family_name, full_name)
                     if author:
-                        added_authors.append(p2093_page)
+                        updated_authors.append(p2093_name)
+                        if isinstance(author, str):
+                            manual_finds.append((p2093_name, page.title()))
                         print('== Adding qualifiers to author item...')
                         add_author_qualifiers(au, given_name, family_name, i)
                         add_reference(au, db, art_id)
@@ -184,6 +192,7 @@ def add_authors(page, item, authors, art_id, db):
         #TODO: Automatically find existing author pages via ORCID API.
         if not author:
             print('== Author not found on page! Adding author name string property.')
+            added_authors.append((full_name, page.title()))
             au = pywikibot.Claim(wd, u'P2093')
             au.setTarget(full_name)
             page.addClaim(au, summary=u'Adding author name string')
@@ -197,10 +206,10 @@ def add_author_qualifiers(author, given_name, family_name, i):
     """
     Iterates through necessary author qualifiers and adds them.
 
-    :param author(Pywikibot.Claim): author claim that qualifiers will be added to
-    :param given_name(string): author given name
-    :param family_name(string): author family name
-    :param i(int): index count eventually transformed into author series ordinal
+    :param author (Pywikibot.Claim): author claim that qualifiers will be added to
+    :param given_name (string): author given name
+    :param family_name (string): author family name
+    :param i (int): index count eventually transformed into author series ordinal
     """
     au_properties = {u'P9687':given_name, u'P9688':family_name, u'P1545':str(i+1)}
     for p in au_properties:
@@ -228,7 +237,7 @@ def add_reference(author, db, art_id):
     """
     Adds reference to author item.
 
-    :param author(Pywikibot.Claim): author claim to add reference to
+    :param author (Pywikibot.Claim): author claim to add reference to
     :param db (string): database where reference found
     :param art_id (string): item article ID.
     """
@@ -264,6 +273,18 @@ def print_author_info(authors):
     print(('Author family names: ' + str(authors[1])).center(term_size))
     print('=' * term_size)
 
-test = pywikibot.ItemPage(wd, 'Q21202820')
-check_author_info(test)
-#get_author_items()
+def print_problematic_finds():
+    """
+    Formatting function to print out manual adds and added authors, as these are worth double checking for correctness!
+    """
+    print((' Check these out! ').center(term_size, '='))
+    print('Manual Finds:')
+    for names in manual_finds:
+        print('== Manually found ' + names[0] + ' in article: ' + names[1])
+
+    print('\nAdded Authors:')
+    for names in added_authors:
+        print('== Added author ' + names[0] + ' in article: ' + names[1])
+
+get_author_items()
+print_problematic_finds()

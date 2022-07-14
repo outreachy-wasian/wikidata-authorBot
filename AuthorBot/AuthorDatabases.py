@@ -13,7 +13,7 @@ citation_regex = {'mbib' : r'FAU - (.*), (.*)\r','RIS' : r'AU  - (.*), ([^\r\n]*
 
 #gets tokens for APIs
 with open('api_keys.txt') as file:
-    api_keys = file.read().splitlines()
+    _api_keys = file.read().splitlines()
 
 
 def generate_database_info(art_id, database):
@@ -31,13 +31,14 @@ def generate_database_info(art_id, database):
                    {'Referer' : 'https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=' + art_id},
                    {'filename':'CJFD2005!' + art_id + '!1!0', 'displaymode':'EndNote'},
                     'EndNote'],
+        'P932' : ['https://api.ncbi.nlm.nih.gov/lit/ctxp/v1/pmc/?format=medline&id=' + art_id + '&api_key=' + _api_keys[0], 'mbib'],
         #Pubmed Literature Citation Exporter: https://api.ncbi.nlm.nih.gov/lit/ctxp
-        'P698' : ['https://api.ncbi.nlm.nih.gov/lit/ctxp/v1/pubmed/?format=medline&id=+' + art_id + '&api_key=' + api_keys[0], 'mbib'],
+        'P698' : ['https://api.ncbi.nlm.nih.gov/lit/ctxp/v1/pubmed/?format=medline&id=+' + art_id + '&api_key=' + _api_keys[0], 'mbib'],
         #Dimensions Publication Export Citation API
         'P6179' : ['https://app.dimensions.ai/details/sources/publication/export/pub.' + art_id + '/citation/ris', 'RIS'],
         #ADS Bibcode Export API
         'P819' : ['https://api.adsabs.harvard.edu/v1/export/ris/' + art_id,
-                  {'Authorization':'Bearer:' + api_keys[1]}, 'RIS']
+                  {'Authorization':'Bearer:' + _api_keys[1]}, 'RIS']
     }
     return database_dict[database]
 

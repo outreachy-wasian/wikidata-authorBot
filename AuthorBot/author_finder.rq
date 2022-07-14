@@ -5,6 +5,8 @@ SELECT DISTINCT ?item WHERE {
   { ?item p:P6179 ?id. } #a dimensions publication ID
   UNION 
   { ?item p:P698 ?id. } #a pubmed ID or
+  UNION 
+  { ?item p:P932 ?id. } #a pcmid ID or
   UNION
   { ?item p:P819 ?id. } #an ADS bibcode and
   {
@@ -29,4 +31,4 @@ SELECT DISTINCT ?item WHERE {
     }
   }
 }
-LIMIT 10
+LIMIT 50
