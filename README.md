@@ -30,5 +30,5 @@ If you want compatibility with a specific academic database, feel free to reques
 - One-by-one API extraction: Unable to get a 'batch' set of author citations, which would reduce author calls considerably
 - Author name string default: Currently, if an author is not already on the Wikidata page, they are added an as author name string property as there is no clear way to definitively find a P50 page that corresponds to a citation's author through just their name. In the future, could be possible to extract ORCID IDs from the article.
 
-#Note:
+# Note:
 - If for some reason you want to try running this script yourself, you will need your own API keys for Pubmed, ADS, and Dimensions. Mine are kept private for hopefully obvious reasons.
