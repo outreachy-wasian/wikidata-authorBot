@@ -31,4 +31,4 @@ SELECT DISTINCT ?item WHERE {
     }
   }
 }
-LIMIT 5
+LIMIT 10
