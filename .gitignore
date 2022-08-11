@@ -1,4 +1,6 @@
 api_keys.txt
+sql_info.txt
+ssh_info.txt
 __pycache__/
 *.py[cod]
 throttle.ctrl
